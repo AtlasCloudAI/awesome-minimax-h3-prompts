@@ -67,20 +67,19 @@ MiniMax H3 是字節跳動繼 MiniMax H3 之後推出的下一代多模態影片
 
 <a id="model-and-execution-defaults"></a>
 
-## ⚙️ 預設模型與執行方式
+## ⚙️ 三条生成路线
 
-Every prompt in this library is reproducible: the reference assets are linked next to it, and the model endpoints are the public Atlas Cloud ones.
+先按素材选路线,再写提示词——这是官方手册的第一步,也是最容易走错的一步。
 
-### 預設模型
+| 路线 | 端点 | 输入 |
+|---|---|---|
+| 文生视频 | `minimax/h3/text-to-video` | 只给提示词;可指定 21:9 ~ 9:16 之间的画幅 |
+| 图生视频（首/尾帧） | `minimax/h3/image-to-video` | 1~2 张图定首帧/尾帧,画幅继承输入图 |
+| 全能参考 | `minimax/h3/reference-to-video` | ≤9 图 + ≤3 段视频 + ≤3 段音频,在提示词里用 @图片N / @视频N / @音频N 指派用途 |
 
-**Storyboard 靜幀：** Seedream 5.0 Pro。**目前預設影片模型：** MiniMax H3。**MiniMax H3：** 只有所選服務商實際提供模型和明確參數限制時才使用。
+输出统一 4–15 秒、24 FPS、原生双声道;分辨率 768p 或 1440p(官方推荐 1440p,768p 结果可升到 1440p)。
 
-- **Atlas MCP：** 只有使用者明確選擇 MCP，且目前客戶端提供生成工具時才使用。
-- **Atlas CLI / REST：** 用於使用者明確選擇的終端機、腳本、CI 或批次任務。
-
-所有非同步任務都使用同一個 prediction ID 每 2 秒輪詢一次。逾時或暫時沒有輸出，不代表可以重複提交付費生成任務。
-
-**[→ 取得 Atlas Cloud API Key](https://www.atlascloud.ai/console/api-keys?utm_source=github&utm_campaign=awesome-minimax-h3-prompts)**
+**[→ 获取 Atlas Cloud API Key](https://www.atlascloud.ai/console/api-keys?utm_source=github&utm_campaign=awesome-minimax-h3-prompts)**
 
 <a id="curation-and-provenance"></a>
 

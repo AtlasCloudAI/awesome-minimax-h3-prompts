@@ -36,11 +36,11 @@
 
 ## 🤔 What is MiniMax H3?
 
-MiniMax H3 is ByteDance's next-generation multimodal video generation model, following MiniMax H3. It is designed for reference-driven video creation, longer narrative sequences, synchronized audio and video, and precise visual control.
+MiniMax H3 is MiniMax's open, general-purpose multimodal video model. Instead of treating image, video and audio generation, editing and reference as separate tasks, H3 reads one multimodal context — text, images, video and sound together — and generates from it. Every output ships with native stereo audio.
 
-**Launch status:** MiniMax H3 is expected to launch in August 2026. Atlas Cloud is one of the first official API launch partners for MiniMax H3.
+**Availability:** H3 is callable on Atlas Cloud today through three endpoints — [text-to-video](https://www.atlascloud.ai/models/minimax/h3/text-to-video), [image-to-video](https://www.atlascloud.ai/models/minimax/h3/image-to-video) and [reference-to-video](https://www.atlascloud.ai/models/minimax/h3/reference-to-video).
 
-Published MiniMax H3 launch material describes up to 30-second generation, native 4K output, up to 50 multimodal references, and local region editing. Treat these as announced capabilities, not universal API parameters.
+**Specs from the official H3 manual:** 4–15s output at 24 FPS with native stereo audio; 768p or 1440p (1440p recommended, 768p upscalable); aspect ratios 21:9 / 16:9 / 4:3 / 1:1 / 3:4 / 9:16, or inherited from the input image in first/last-frame mode. Reference inputs: up to 9 images, up to 3 video clips (2–15s each, ≤15s total) and up to 3 audio clips (≤15s total, audio must accompany an image or video).
 
 **Availability note:** reference limits, duration, resolution and editing controls differ per provider — check the model page before a billable run.
 
@@ -62,23 +62,22 @@ Published MiniMax H3 launch material describes up to 30-second generation, nativ
 ## 🚀 How to use this repository
 
 1. **Browse:** filter by category, open a real preview when available, and copy the prompt.
-2. **Adapt:** ask MiniMax H3 to rewrite a prompt for your subject, duration, aspect ratio, references, and continuity needs.
+2. **Adapt:** swap in your own subject, scene and on-screen text, and re-point the `@Image N` / `@Video N` / `@Audio N` slots at your own assets.
 3. **Generate:** run the prompt on Atlas Cloud (text-to-video, image-to-video, or reference-to-video) and iterate on the shot list if a beat lands wrong.
 
 <a id="model-and-execution-defaults"></a>
 
-## ⚙️ Model and execution defaults
+## ⚙️ The three generation routes
 
-Every prompt in this library is reproducible: the reference assets are linked next to it, and the model endpoints are the public Atlas Cloud ones.
+Pick the route from the assets you have, then write the prompt — that ordering is the first step in the official manual and the easiest one to get wrong.
 
-### Model defaults
+| Route | Endpoint | Inputs |
+|---|---|---|
+| Text-to-video | `minimax/h3/text-to-video` | Prompt only; pick any ratio between 21:9 and 9:16 |
+| Image-to-video (first/last frame) | `minimax/h3/image-to-video` | 1–2 images pin the first/last frame; ratio follows the input image |
+| Reference-to-video | `minimax/h3/reference-to-video` | ≤9 images + ≤3 video clips + ≤3 audio clips, addressed as @Image N / @Video N / @Audio N in the prompt |
 
-**Storyboard stills:** Seedream 5.0 Pro. **Executable video default:** MiniMax H3. **MiniMax H3:** only when the selected provider exposes the model and its actual limits.
-
-- **Atlas MCP:** used when the user explicitly selects MCP and its generation tools are available.
-- **Atlas CLI / REST:** used for explicit terminal, script, CI, or batch workflows.
-
-All asynchronous jobs are polled every 2 seconds using the same prediction ID. A timeout or delayed output is not permission to submit a duplicate paid generation.
+All routes output 4–15s at 24 FPS with native stereo audio, at 768p or 1440p (1440p recommended; 768p results can be upscaled).
 
 **[→ Get an Atlas Cloud API key](https://www.atlascloud.ai/console/api-keys?utm_source=github&utm_campaign=awesome-minimax-h3-prompts)**
 

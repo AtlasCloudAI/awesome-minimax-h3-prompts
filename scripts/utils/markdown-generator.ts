@@ -74,7 +74,7 @@ const homeCopyEn: HomeCopy = {
   contents: "Contents",
   howToUse: "How to use this repository",
   browse: "**Browse:** filter by category, open a real preview when available, and copy the prompt.",
-  adapt: "**Adapt:** ask MiniMax H3 to rewrite a prompt for your subject, duration, aspect ratio, references, and continuity needs.",
+  adapt: "**Adapt:** swap in your own subject, scene and on-screen text, and re-point the `@Image N` / `@Video N` / `@Audio N` slots at your own assets.",
   generate:
     "**Generate:** run the prompt on Atlas Cloud (text-to-video, image-to-video, or reference-to-video) and iterate on the shot list if a beat lands wrong.",
   execution: "Model and execution defaults",
@@ -89,12 +89,12 @@ const homeCopyEn: HomeCopy = {
     "**Storyboard stills:** Seedream 5.0 Pro. **Executable video default:** MiniMax H3. **MiniMax H3:** only when the selected provider exposes the model and its actual limits.",
   modelIntro: "What is MiniMax H3?",
   modelDescription:
-    "MiniMax H3 is ByteDance's next-generation multimodal video generation model, following MiniMax H3. It is designed for reference-driven video creation, longer narrative sequences, synchronized audio and video, and precise visual control.",
+    "MiniMax H3 is MiniMax's open, general-purpose multimodal video model. Instead of treating image, video and audio generation, editing and reference as separate tasks, H3 reads one multimodal context — text, images, video and sound together — and generates from it. Every output ships with native stereo audio.",
   promptGuide: "MiniMax H3 prompt guide",
   launchStatus:
-    "**Launch status:** MiniMax H3 is expected to launch in August 2026. Atlas Cloud is one of the first official API launch partners for MiniMax H3.",
+    "**Availability:** H3 is callable on Atlas Cloud today through three endpoints — [text-to-video](https://www.atlascloud.ai/models/minimax/h3/text-to-video), [image-to-video](https://www.atlascloud.ai/models/minimax/h3/image-to-video) and [reference-to-video](https://www.atlascloud.ai/models/minimax/h3/reference-to-video).",
   capabilityIntro:
-    "Published MiniMax H3 launch material describes up to 30-second generation, native 4K output, up to 50 multimodal references, and local region editing. Treat these as announced capabilities, not universal API parameters.",
+    "**Specs from the official H3 manual:** 4–15s output at 24 FPS with native stereo audio; 768p or 1440p (1440p recommended, 768p upscalable); aspect ratios 21:9 / 16:9 / 4:3 / 1:1 / 3:4 / 9:16, or inherited from the input image in first/last-frame mode. Reference inputs: up to 9 images, up to 3 video clips (2–15s each, ≤15s total) and up to 3 audio clips (≤15s total, audio must accompany an image or video).",
   availability:
     "**Availability note:** reference limits, duration, resolution and editing controls differ per provider — check the model page before a billable run.",
   referenceBinding: "**Reference binding:** state what each image, video, or audio reference controls.",
@@ -256,20 +256,33 @@ function renderHowToUse(locale: string): string {
 
 function renderExecution(locale: string): string {
   const copy = getHomeCopy(locale);
+  const zh = locale === "zh" || locale === "zh-TW";
+  const rows = zh
+    ? [
+        ["文生视频", "`minimax/h3/text-to-video`", "只给提示词;可指定 21:9 ~ 9:16 之间的画幅"],
+        ["图生视频（首/尾帧）", "`minimax/h3/image-to-video`", "1~2 张图定首帧/尾帧,画幅继承输入图"],
+        ["全能参考", "`minimax/h3/reference-to-video`", "≤9 图 + ≤3 段视频 + ≤3 段音频,在提示词里用 @图片N / @视频N / @音频N 指派用途"],
+      ]
+    : [
+        ["Text-to-video", "`minimax/h3/text-to-video`", "Prompt only; pick any ratio between 21:9 and 9:16"],
+        ["Image-to-video (first/last frame)", "`minimax/h3/image-to-video`", "1–2 images pin the first/last frame; ratio follows the input image"],
+        ["Reference-to-video", "`minimax/h3/reference-to-video`", "≤9 images + ≤3 video clips + ≤3 audio clips, addressed as @Image N / @Video N / @Audio N in the prompt"],
+      ];
   return [
-    renderHeading("model-and-execution-defaults", `⚙️ ${copy.execution}`),
-    copy.executionIntro,
+    renderHeading("model-and-execution-defaults", `⚙️ ${zh ? "三条生成路线" : "The three generation routes"}`),
+    zh
+      ? "先按素材选路线,再写提示词——这是官方手册的第一步,也是最容易走错的一步。"
+      : "Pick the route from the assets you have, then write the prompt — that ordering is the first step in the official manual and the easiest one to get wrong.",
     "",
-    `### ${copy.modelDefaults}`,
+    `| ${zh ? "路线" : "Route"} | ${zh ? "端点" : "Endpoint"} | ${zh ? "输入" : "Inputs"} |`,
+    "|---|---|---|",
+    ...rows.map((r) => `| ${r[0]} | ${r[1]} | ${r[2]} |`),
     "",
-    copy.modelDefaultText,
+    zh
+      ? "输出统一 4–15 秒、24 FPS、原生双声道;分辨率 768p 或 1440p(官方推荐 1440p,768p 结果可升到 1440p)。"
+      : "All routes output 4–15s at 24 FPS with native stereo audio, at 768p or 1440p (1440p recommended; 768p results can be upscaled).",
     "",
-    "- " + copy.executionMcp,
-    "- " + copy.executionCliRest,
-    "",
-    copy.polling,
-    "",
-    `**[→ ${locale === "zh" ? "获取 Atlas Cloud API Key" : locale === "zh-TW" ? "取得 Atlas Cloud API Key" : "Get an Atlas Cloud API key"}](https://www.atlascloud.ai/console/api-keys${UTM})**`,
+    `**[→ ${zh ? "获取 Atlas Cloud API Key" : "Get an Atlas Cloud API key"}](https://www.atlascloud.ai/console/api-keys${UTM})**`,
     "",
   ].join("\n");
 }
