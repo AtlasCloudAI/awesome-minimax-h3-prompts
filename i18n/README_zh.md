@@ -25,9 +25,9 @@
 - [⚙️ 默认模型与执行方式](#model-and-execution-defaults)
 - [🔎 收录标准与来源说明](#curation-and-provenance)
 - [📊 统计数据](#statistics)
-- [🔥 精选提示词](#featured-prompts)
 - [🏷️ 按分类浏览](#browse-by-category)
 - [📋 全部提示词](#all-prompts)
+- [🔥 精选提示词](#featured-prompts)
 - [❓ 常见问题](#faq)
 - [🔗 相关资源](#resources)
 - [📄 许可证](#license)
@@ -102,179 +102,6 @@ Every prompt in this library is reproducible: the reference assets are linked ne
 | 分类数 | **16** |
 | 预览视频数 | **52** |
 | 最后更新 | **2026-08-06** |
-
-<a id="featured-prompts"></a>
-
-## 🔥 精选提示词
-
-### No. 1: 品牌大片与影视内容
-
-- **分类:** `品牌大片与影视`
-- **来源:** `official`
-- **作者:** MiniMax
-- **语言:** `zh`
-- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HBLebv5HsoZXQaxjD0Hcw31qnWg.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HwNib8cNAoNE68x7rvYcsgiknYg.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/IWcAbqTVwofeglxkH1dc6GpjnEe.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RhIjb64TVoeE2cx7Kd5cYdWanSr.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### 描述
-
-图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远…
-
-#### 提示词
-
-```text
-图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远镜扫视转场（甩动、运动模糊、光学拖影、曝光闪烁）在最模糊处切换并迅速稳定重新对焦。全程固定双圆镜片遮罩（黑色羽化暗角、位置大小边缘虚化绝对一致无变形漂移）仅内部画面运动。图2布料随风克制飘动MINIMAX文字随布面起伏保持可读；图3人物如无意捕捉的时尚路人自然走动转身摆臂；图4人物调整眼镜或微抬下巴展现冷感松弛fashion campaign态度。红字随对焦轻微加载，初现略虚焦低透明度0.3–0.5秒内淡入变清晰（可微小纵向滑入或字距呼吸）切换前淡出或被运动模糊带走，禁旋转弹跳或大幅飞入飞出。Wes Anderson式窥视35mm胶片质感（轻微颗粒、柔和高光晕染、克制色彩、红字点缀），极简高级微带搞怪灵动，严禁新增人物车辆建筑logo，保持原图核心构图与MINIMAX装置不变。
-```
-
-### No. 2: 品牌大片与影视内容
-
-- **分类:** `品牌大片与影视`
-- **来源:** `official`
-- **作者:** MiniMax
-- **语言:** `zh`
-- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/UpIAbflwmoM5RnxqHCgcSgAon1L.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### 描述
-
-节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要…
-
-#### 提示词
-
-```text
-节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要有克制发光和材质感、微弱边缘辉光。文字动效包含从深空暗部渐入、被星光扫亮、字距展开、残影、微弱发光、黑场闪现。 （非完整Prompt，可自行补充细节）
-```
-
-### No. 3: 品牌大片与影视内容
-
-- **分类:** `品牌大片与影视`
-- **来源:** `official`
-- **作者:** MiniMax
-- **语言:** `zh`
-- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VN1dbCVGdoo87MxC0n5c8Onknkf.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/U6S1bbcoQoCJJ0xmMZbc2vDTn2V.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### 描述
-
-写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。…
-
-#### 提示词
-
-```text
-写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。巨大圆形宇宙门几乎占满画面，人物只是门前一个很小的背影，站在画面下方偏右。地面潮湿反光，门中心一片黑暗。镜头慢慢向前推进。大标题从黑暗边缘渐入，先模糊后清晰："THE STARS WERE LISTENING" 字体极窄、厚重、全大写，暗红混合铁锈红，带轻微颗粒和雾化边缘。 Audio: 深低频脉冲，远处金属轻震，文字清晰时一记轻 hit。 → Hard cut. （非完整Prompt，可自行补充细节）
-```
-
-### No. 4: 品牌大片与影视内容
-
-- **分类:** `品牌大片与影视`
-- **来源:** `official`
-- **作者:** MiniMax
-- **语言:** `zh`
-- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Ff48brIHioEYGMxwPSQcugyVnQn.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/F7KbbSElsoRGdPx7sWZcqzkPnWe.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XdCobH3TEo8icGxCUTyc90Hjnfh.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EiJVbxcX3oebPKxMCGXcq2iXnth.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### 描述
-
-制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 e…
-
-#### 提示词
-
-```text
-制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 ending logo 参考图4。这是一支卖衣服和包的时尚 campaign，整体气质要高级、冷感、克制，但剪辑不能无聊，要更灵动、更有时尚节奏。不要像普通剧情片，也不要像电商广告。核心故事依然很简单：荒漠公路和复古车旁，女人回到车尾，打开后备箱，取出黑色包袋，和站在车边的男人有一瞬间的安静关系，然后她拿着包离开。包和服装要自然融入人物行动里，成为角色气质的一部分。
-```
-
-### No. 5: 品牌大片与影视内容
-
-- **分类:** `品牌大片与影视`
-- **来源:** `official`
-- **作者:** MiniMax
-- **语言:** `zh`
-- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JfBib38b9ouKz7x3gj1cn0Ymn4d.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TMfGbI8YjoBdxAxRJ21cHzcxngg.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### 描述
-
-图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长…
-
-#### 提示词
-
-```text
-图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长发、窄黑色复古墨镜、黑色高光漆皮风衣、冷酷自信的时尚表情、火光映在皮衣表面的橙色反射。整体风格是胶片快切时尚广告，融合夜晚火场、黑烟、橙红火焰、VHS 故障、CCTV 广播中断、90 年代模拟胶片颗粒、扫描线、色差、漏光、闪白转场、画面轻微抖动。
-```
-
-### No. 6: 视觉创意与内容包装
-
-- **分类:** `视觉创意与包装`
-- **来源:** `official`
-- **作者:** MiniMax
-- **语言:** `zh`
-- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/LMBybwa6xoa2QQxPV7scKl3rnxf.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/G3jobXm0SoPLBQxbt8lcXGwonZf.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/AwnIb2AgOobwvExdmfccdqBanCb.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HW8ObvPBooaYYexj5xuctLGnnVc.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Gc3kbfFZeoj3HrxpC9rcUkb3nkc.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Efn8bfBhjob3BXxRUZRcsqtnnOc.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### 描述
-
-生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称…
-
-#### 提示词
-
-```text
-生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称分屏、强烈几何色块、英文片头署名、少量日文片假名装饰、爵士犯罪气质。氛围是60%悬疑、40%爵士：神秘、酷、灵动、有都市犯罪感，不恐怖、不沉重，也不要变成欢乐爵士MV。片头动效要像动态图形拼贴：黑底线框先出现，分屏边界快速划出，色块和画格逐块贴入；人物剪影、道具特写、英文署名跟随鼓点依次滑入、弹出、遮罩揭示。不要普通写实剧情动画，要片头包装感。英文署名要清晰可读，允许有动效：细线框先画出，名字从框内滑入，字母逐个出现，被色块遮罩揭示，最后短暂停住。不要新增中文，不要乱码，不要让英文错拼。全片规则：所有英文署名和职位只出现一次。不要重复同一个职位，不要重复同一个人名，不要让同一个人担任多个职位。转场形式要丰富：圆形黑胶遮罩、车门竖切、人物长影擦屏、红线切割、巨大英文字母遮罩、分屏边框重组、色块硬切、画格逐块贴入。所有转场跟随鼓点，干脆、悬疑、灵动、有漫画拼贴感。不要柔和溶解，不要流体转场。BGM：原创15秒片头音乐，60%悬疑、40%爵士。以低音持续音、紧张弦乐拨奏、冷感合成器脉冲、低音鼓、稀疏爵士鼓刷、walking bass片段、低音萨克斯短句和短促铜管点缀组成。前2秒神秘低频和踩镲建立悬疑，第3秒进入低沉鼓点，第6秒加入爵士贝斯律动，第10秒出现短促萨克斯/铜管riff，最后2秒用紧张和弦加鼓点定格。整体神秘、酷、带犯罪感，爵士只占40%，不要太欢快，不模仿任何现有旋律。
-```
 
 <a id="browse-by-category"></a>
 
@@ -1762,6 +1589,179 @@ https://arena-test.xaminim.com/?case_id=2337
 ▍相机节奏（贯穿全片）- 始终比手绘动画慢半拍- 动画先逃向扶手环/座椅缝/地板木纹/路线图/车门玻璃/车厢中央，相机再迟疑平移/低头/抬头/前进/后退追- 不提前构图，不让动画稳定居中，不平稳展示电车内饰- 保留：手持手机抖动、电车行驶摇晃、走路追赶的上下起伏、靠近玻璃的短暂失焦、窗外街灯曝光跳动、自然运动模糊- 像拍摄者真的在同一节车厢里一路追着它移动
 ▍禁止项（贯穿全片）- 禁止精密 3DCG、毛绒玩具风、三维渲染、平滑霓虹管、均匀矢量线、完成度过高的动态图形- 禁止电影感过强的布光、广告摄影式整洁构图、过度景深虚化- 禁止字幕、标志、背景音乐- 禁止突然切到别的场景- 禁止前形态消失后新角色凭空出现- 禁止巨大眼睛、裂嘴、牙齿、威吓、扑咬、突然黑屏、跳吓、恐怖怪物化- 最后的空间变形必须仍由手绘发光线条构成，可以奇妙梦幻不可思议，但保持温柔、怀旧、可爱、生活化、温柔而略带哀愁。
 ▍环境音（贯穿全片）- 只使用老式电车车厢内的真实声音：车轮与轨道的低沉摩擦声、车厢轻微摇晃声、扶手环碰撞声、车门按钮细小机械声、纸质车票摩擦声、布面座椅被碰到的声音、拍摄者小声惊呼和急促脚步声- 手绘动画声音：极轻的粉笔摩擦声、玻璃上滑动的细小刮擦声、柔软电子颤音、短促滑稽的鸣叫声
+```
+
+<a id="featured-prompts"></a>
+
+## 🔥 精选提示词
+
+### No. 1: 品牌大片与影视内容
+
+- **分类:** `品牌大片与影视`
+- **来源:** `official`
+- **作者:** MiniMax
+- **语言:** `zh`
+- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HBLebv5HsoZXQaxjD0Hcw31qnWg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HwNib8cNAoNE68x7rvYcsgiknYg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/IWcAbqTVwofeglxkH1dc6GpjnEe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RhIjb64TVoeE2cx7Kd5cYdWanSr.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远…
+
+#### 提示词
+
+```text
+图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远镜扫视转场（甩动、运动模糊、光学拖影、曝光闪烁）在最模糊处切换并迅速稳定重新对焦。全程固定双圆镜片遮罩（黑色羽化暗角、位置大小边缘虚化绝对一致无变形漂移）仅内部画面运动。图2布料随风克制飘动MINIMAX文字随布面起伏保持可读；图3人物如无意捕捉的时尚路人自然走动转身摆臂；图4人物调整眼镜或微抬下巴展现冷感松弛fashion campaign态度。红字随对焦轻微加载，初现略虚焦低透明度0.3–0.5秒内淡入变清晰（可微小纵向滑入或字距呼吸）切换前淡出或被运动模糊带走，禁旋转弹跳或大幅飞入飞出。Wes Anderson式窥视35mm胶片质感（轻微颗粒、柔和高光晕染、克制色彩、红字点缀），极简高级微带搞怪灵动，严禁新增人物车辆建筑logo，保持原图核心构图与MINIMAX装置不变。
+```
+
+### No. 2: 品牌大片与影视内容
+
+- **分类:** `品牌大片与影视`
+- **来源:** `official`
+- **作者:** MiniMax
+- **语言:** `zh`
+- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/UpIAbflwmoM5RnxqHCgcSgAon1L.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要…
+
+#### 提示词
+
+```text
+节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要有克制发光和材质感、微弱边缘辉光。文字动效包含从深空暗部渐入、被星光扫亮、字距展开、残影、微弱发光、黑场闪现。 （非完整Prompt，可自行补充细节）
+```
+
+### No. 3: 品牌大片与影视内容
+
+- **分类:** `品牌大片与影视`
+- **来源:** `official`
+- **作者:** MiniMax
+- **语言:** `zh`
+- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VN1dbCVGdoo87MxC0n5c8Onknkf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/U6S1bbcoQoCJJ0xmMZbc2vDTn2V.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。…
+
+#### 提示词
+
+```text
+写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。巨大圆形宇宙门几乎占满画面，人物只是门前一个很小的背影，站在画面下方偏右。地面潮湿反光，门中心一片黑暗。镜头慢慢向前推进。大标题从黑暗边缘渐入，先模糊后清晰："THE STARS WERE LISTENING" 字体极窄、厚重、全大写，暗红混合铁锈红，带轻微颗粒和雾化边缘。 Audio: 深低频脉冲，远处金属轻震，文字清晰时一记轻 hit。 → Hard cut. （非完整Prompt，可自行补充细节）
+```
+
+### No. 4: 品牌大片与影视内容
+
+- **分类:** `品牌大片与影视`
+- **来源:** `official`
+- **作者:** MiniMax
+- **语言:** `zh`
+- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Ff48brIHioEYGMxwPSQcugyVnQn.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/F7KbbSElsoRGdPx7sWZcqzkPnWe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XdCobH3TEo8icGxCUTyc90Hjnfh.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EiJVbxcX3oebPKxMCGXcq2iXnth.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 e…
+
+#### 提示词
+
+```text
+制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 ending logo 参考图4。这是一支卖衣服和包的时尚 campaign，整体气质要高级、冷感、克制，但剪辑不能无聊，要更灵动、更有时尚节奏。不要像普通剧情片，也不要像电商广告。核心故事依然很简单：荒漠公路和复古车旁，女人回到车尾，打开后备箱，取出黑色包袋，和站在车边的男人有一瞬间的安静关系，然后她拿着包离开。包和服装要自然融入人物行动里，成为角色气质的一部分。
+```
+
+### No. 5: 品牌大片与影视内容
+
+- **分类:** `品牌大片与影视`
+- **来源:** `official`
+- **作者:** MiniMax
+- **语言:** `zh`
+- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JfBib38b9ouKz7x3gj1cn0Ymn4d.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TMfGbI8YjoBdxAxRJ21cHzcxngg.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长…
+
+#### 提示词
+
+```text
+图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长发、窄黑色复古墨镜、黑色高光漆皮风衣、冷酷自信的时尚表情、火光映在皮衣表面的橙色反射。整体风格是胶片快切时尚广告，融合夜晚火场、黑烟、橙红火焰、VHS 故障、CCTV 广播中断、90 年代模拟胶片颗粒、扫描线、色差、漏光、闪白转场、画面轻微抖动。
+```
+
+### No. 6: 视觉创意与内容包装
+
+- **分类:** `视觉创意与包装`
+- **来源:** `official`
+- **作者:** MiniMax
+- **语言:** `zh`
+- **视频:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/LMBybwa6xoa2QQxPV7scKl3rnxf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/G3jobXm0SoPLBQxbt8lcXGwonZf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/AwnIb2AgOobwvExdmfccdqBanCb.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HW8ObvPBooaYYexj5xuctLGnnVc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Gc3kbfFZeoj3HrxpC9rcUkb3nkc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Efn8bfBhjob3BXxRUZRcsqtnnOc.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称…
+
+#### 提示词
+
+```text
+生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称分屏、强烈几何色块、英文片头署名、少量日文片假名装饰、爵士犯罪气质。氛围是60%悬疑、40%爵士：神秘、酷、灵动、有都市犯罪感，不恐怖、不沉重，也不要变成欢乐爵士MV。片头动效要像动态图形拼贴：黑底线框先出现，分屏边界快速划出，色块和画格逐块贴入；人物剪影、道具特写、英文署名跟随鼓点依次滑入、弹出、遮罩揭示。不要普通写实剧情动画，要片头包装感。英文署名要清晰可读，允许有动效：细线框先画出，名字从框内滑入，字母逐个出现，被色块遮罩揭示，最后短暂停住。不要新增中文，不要乱码，不要让英文错拼。全片规则：所有英文署名和职位只出现一次。不要重复同一个职位，不要重复同一个人名，不要让同一个人担任多个职位。转场形式要丰富：圆形黑胶遮罩、车门竖切、人物长影擦屏、红线切割、巨大英文字母遮罩、分屏边框重组、色块硬切、画格逐块贴入。所有转场跟随鼓点，干脆、悬疑、灵动、有漫画拼贴感。不要柔和溶解，不要流体转场。BGM：原创15秒片头音乐，60%悬疑、40%爵士。以低音持续音、紧张弦乐拨奏、冷感合成器脉冲、低音鼓、稀疏爵士鼓刷、walking bass片段、低音萨克斯短句和短促铜管点缀组成。前2秒神秘低频和踩镲建立悬疑，第3秒进入低沉鼓点，第6秒加入爵士贝斯律动，第10秒出现短促萨克斯/铜管riff，最后2秒用紧张和弦加鼓点定格。整体神秘、酷、带犯罪感，爵士只占40%，不要太欢快，不模仿任何现有旋律。
 ```
 
 <a id="faq"></a>

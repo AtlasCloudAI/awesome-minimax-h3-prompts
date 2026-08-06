@@ -302,9 +302,9 @@ function renderContents(locale: string): string {
     `- [⚙️ ${copy.execution}](#model-and-execution-defaults)`,
     `- [🔎 ${copy.curation}](#curation-and-provenance)`,
     `- [📊 ${t("stats", locale)}](#statistics)`,
-    `- [🔥 ${t("featuredPrompts", locale)}](#featured-prompts)`,
     `- [🏷️ ${t("browseByCategory", locale)}](#browse-by-category)`,
     `- [📋 ${t("allPrompts", locale)}](#all-prompts)`,
+    `- [🔥 ${t("featuredPrompts", locale)}](#featured-prompts)`,
     `- [❓ ${copy.faq}](#faq)`,
     `- [🔗 ${copy.resources}](#resources)`,
     `- [📄 ${t("license", locale)}](#license)`,
@@ -466,8 +466,6 @@ export function generateMarkdown(data: SortedPromptData, locale: string): string
   lines.push(`| ${t("previewVideos", locale)} | **${data.stats.videos}** |`);
   lines.push(`| ${t("lastUpdated", locale)} | **${now}** |`);
   lines.push("");
-  lines.push(renderHeading("featured-prompts", `🔥 ${t("featuredPrompts", locale)}`));
-  data.featured.forEach((prompt, index) => lines.push(renderPrompt(prompt, index, locale)));
   lines.push(renderHeading("browse-by-category", `🏷️ ${t("browseByCategory", locale)}`));
   lines.push("");
 
@@ -490,6 +488,8 @@ export function generateMarkdown(data: SortedPromptData, locale: string): string
     prompts.forEach((prompt, promptIndex) => lines.push(renderPrompt(prompt, promptIndex, locale)));
   });
 
+  lines.push(renderHeading("featured-prompts", `🔥 ${t("featuredPrompts", locale)}`));
+  data.featured.forEach((prompt, index) => lines.push(renderPrompt(prompt, index, locale)));
   lines.push(renderFaq(locale));
   lines.push(`<details><summary>${copy.development}</summary>`);
   lines.push("");

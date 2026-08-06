@@ -25,9 +25,9 @@
 - [⚙️ Model and execution defaults](#model-and-execution-defaults)
 - [🔎 Curation and provenance](#curation-and-provenance)
 - [📊 Statistics](#statistics)
-- [🔥 Featured Prompts](#featured-prompts)
 - [🏷️ Browse by Category](#browse-by-category)
 - [📋 All Prompts](#all-prompts)
+- [🔥 Featured Prompts](#featured-prompts)
 - [❓ Frequently asked questions](#faq)
 - [🔗 Resources](#resources)
 - [📄 License](#license)
@@ -102,179 +102,6 @@ Every prompt record keeps its category, source platform, author, source link, in
 | Categories | **16** |
 | Preview Videos | **52** |
 | Last Updated | **2026-08-06** |
-
-<a id="featured-prompts"></a>
-
-## 🔥 Featured Prompts
-
-### No. 1: Telescope Peek At MiniMax Fashion
-
-- **Category:** `Brand Film & Cinematic`
-- **Source:** `official`
-- **Author:** MiniMax
-- **Language:** `pt`
-- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HBLebv5HsoZXQaxjD0Hcw31qnWg.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HwNib8cNAoNE68x7rvYcsgiknYg.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/IWcAbqTVwofeglxkH1dc6GpjnEe.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RhIjb64TVoeE2cx7Kd5cYdWanSr.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### Description
-
-A vintage telescope view reveals MiniMax in a stylish, Wes Anderson-inspired sequence with subtle text overlays.
-
-#### Prompt
-
-```text
-Image 1 to Image 4 continuous keyframes, simulating an old telescope finding the MINIMAX device. Start with out-of-focus handheld shake then quickly rack focus to Image 1, transitions between images via telescope panning (whip pan, motion blur, optical trailing, exposure flicker) switching at the most blurred point and quickly stabilizing to refocus. Maintain a fixed dual circular lens mask throughout (black feathered vignette, position, size, edge blur absolutely consistent without distortion or drift) with only internal image movement. In Image 2, fabric flutters gently in the wind, MINIMAX text undulates with the fabric surface remaining legible; Image 3 features a person walking naturally like an unintentionally captured fashionable passerby, turning and swinging arms; Image 4 shows the person adjusting glasses or slightly lifting chin, displaying a cool, relaxed fashion campaign attitude. Red text loads subtly with focus, initially slightly out-of-focus with low opacity, fading in to become clear within 0.3–0.5 seconds (allow minor vertical slide-in or letter-spacing breathing), fading out before switching or being taken away by motion blur. No rotation, bouncing, or large fly-ins/fly-outs. Wes Anderson-style peeping 35mm film texture (slight grain, soft highlight bloom, restrained colors, red text accents), minimalist, sophisticated, slightly quirky and lively. Strictly prohibit adding new people, vehicles, buildings, or logos. Maintain the core composition of the original images and the MINIMAX device unchanged.
-```
-
-### No. 2: Epic Sci-Fi Trailer Transitions
-
-- **Category:** `Brand Film & Cinematic`
-- **Source:** `official`
-- **Author:** MiniMax
-- **Language:** `pt`
-- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/UpIAbflwmoM5RnxqHCgcSgAon1L.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### Description
-
-Fast-paced, grand sci-fi cuts with bridge shakes, light flashes, and cinematic title animations.
-
-#### Prompt
-
-```text
-Faster rhythm, grand but not dragging. Quick hard cuts, bridge vibrations, intense light flashes, short black screens, jump shock transitions. Text is movie trailer-style wide letter-spacing title packaging, font not pure white, should have restrained glow and texture, faint edge glow. Text animations include fading in from deep space darkness, being swept by starlight, letter-spacing expansion, motion trails, faint glow, black screen flashes. (Not a complete prompt, details can be added independently)
-```
-
-### No. 3: Cinematic Portal To The Stars
-
-- **Category:** `Brand Film & Cinematic`
-- **Source:** `official`
-- **Author:** MiniMax
-- **Language:** `pt`
-- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VN1dbCVGdoo87MxC0n5c8Onknkf.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/U6S1bbcoQoCJJ0xmMZbc2vDTn2V.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### Description
-
-A wide shot slowly pushes towards a massive dark cosmic portal with a lone, small figure before it.
-
-#### Prompt
-
-```text
-Realistic cinematic feel, high-contrast lighting, tight rhythm. Image 1 serves as overall atmosphere and style reference. Image 2 serves as main character reference. Shot 1 — Ultra-wide establishing shot. A huge circular cosmic portal almost fills the frame, the person is just a very small silhouette in front of it, standing at the lower right of the frame. The ground is wet and reflective, the portal's center is pure darkness. The camera slowly pushes forward. A large title fades in from the dark edge, blurry first then clear: "THE STARS WERE LISTENING" font extremely narrow, heavy, all caps, dark red mixed with rust red, with slight grain and foggy edges. Audio: Deep low-frequency pulse, distant metal faintly vibrating, a light hit when the text becomes clear. → Hard cut. (Not a complete prompt, details can be added independently)
-```
-
-### No. 4: Desert Fashion Campaign With Retro Car
-
-- **Category:** `Brand Film & Cinematic`
-- **Source:** `official`
-- **Author:** MiniMax
-- **Language:** `pt`
-- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Ff48brIHioEYGMxwPSQcugyVnQn.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/F7KbbSElsoRGdPx7sWZcqzkPnWe.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XdCobH3TEo8icGxCUTyc90Hjnfh.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EiJVbxcX3oebPKxMCGXcq2iXnth.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### Description
-
-A high-fashion video of a woman retrieving a bag from a car trunk in a desert, blending clothing and bags naturally into the narrative.
-
-#### Prompt
-
-```text
-Produce a 16:9 horizontal high-end fashion brand video. The overall atmosphere, scenes, and film texture reference Image 1; the bag asset references Image 3; the character asset references Image 2; the brand ending logo references Image 4. This is a fashion campaign selling clothes and bags. The overall temperament should be high-end, cool, restrained, but the editing should not be boring; it should be more agile and have a fashionable rhythm. Do not make it like an ordinary drama or an e-commerce advertisement. The core story is still very simple: by a desert road and a retro car, a woman returns to the rear of the car, opens the trunk, takes out a black bag, shares a moment of quiet connection with a man standing by the car, and then she leaves with the bag. The bag and clothing should naturally integrate into the character's actions, becoming part of the character's temperament.
-```
-
-### No. 5: Night Fire Fashion Short With VHS Glitches
-
-- **Category:** `Brand Film & Cinematic`
-- **Source:** `official`
-- **Author:** MiniMax
-- **Language:** `pt`
-- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JfBib38b9ouKz7x3gj1cn0Ymn4d.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TMfGbI8YjoBdxAxRJ21cHzcxngg.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### Description
-
-A 15-second fashion short featuring a woman in a leather coat with firelight reflections, using VHS glitches and film grain effects.
-
-#### Prompt
-
-```text
-Image 1 is the reference for overall texture and atmosphere, Image 2 is the reference for character appearance. Generate a 15-second 16:9 horizontal trendy fashion short. Maintain character consistency: platinum blonde hair, narrow black retro sunglasses, black high-gloss patent leather trench coat, cool and confident fashion expression, orange reflections of firelight on the leather coat surface. The overall style is a film fast-cut fashion advertisement, integrating night fire scene, black smoke, orange-red flames, VHS glitches, CCTV broadcast interruption, 90s analog film grain, scan lines, chromatic aberration, light leaks, flash white transitions, and slight screen shake.
-```
-
-### No. 6: Retro Anime-Style Crime Movie Title Sequence
-
-- **Category:** `Visual Creative & Packaging`
-- **Source:** `official`
-- **Author:** MiniMax
-- **Language:** `pt`
-- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4)
-
-<video src="https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4" controls muted playsinline width="720"></video>
-
-- **Inputs:**
-
-<p>
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/LMBybwa6xoa2QQxPV7scKl3rnxf.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/G3jobXm0SoPLBQxbt8lcXGwonZf.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/AwnIb2AgOobwvExdmfccdqBanCb.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HW8ObvPBooaYYexj5xuctLGnnVc.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Gc3kbfFZeoj3HrxpC9rcUkb3nkc.jpg" width="180" referrerpolicy="no-referrer">
-  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Efn8bfBhjob3BXxRUZRcsqtnnOc.jpg" width="180" referrerpolicy="no-referrer">
-</p>
-
-#### Description
-
-A 15-second title sequence with retro Japanese anime visuals, hard-edged silhouettes, and a suspenseful jazz soundtrack.
-
-#### Prompt
-
-```text
-Generate a 15-second 16:9 horizontal light suspense crime movie title sequence. The overall style references the visual language of these images: retro Japanese anime opening, hard-edged silhouettes, comic collage, asymmetric split screen, strong geometric color blocks, English title credits, a small amount of Japanese katakana decoration, jazz crime气质. The atmosphere is 60% suspense, 40% jazz: mysterious, cool, agile, with an urban crime feel, not horror, not heavy, and do not turn it into a cheerful jazz MV. The title motion graphics should be like dynamic graphic collage: black wireframes appear first, split-screen boundaries quickly slide out, color blocks and panels are pasted in piece by piece; character silhouettes, prop close-ups, English credits slide in, pop out, and are revealed by masks following the drumbeat. Do not use ordinary realistic narrative animation; aim for title packaging feel. English credits must be clearly readable, motion graphics are allowed: thin wireframes are drawn first, names slide in from within the frame, letters appear one by one, are revealed by color block masks, and finally pause briefly. Do not add Chinese, do not use garbled text, do not misspell English. Full video rule: All English credits and positions appear only once. Do not repeat the same position, do not repeat the same person's name, do not let the same person hold multiple positions. Transition forms should be rich: circular vinyl record mask, car door vertical cut, character long shadow wipe, red line cut, huge English letter mask, split-screen border reorganization, color block hard cut, panels pasted in piece by piece. All transitions follow the drumbeat, crisp, suspenseful, agile, with a comic collage feel. Do not use soft dissolves, do not use fluid transitions. BGM: Original 15-second title music, 60% suspense, 40% jazz. Composed of sustained low bass, tense string plucks, cool synth pulses, bass drum, sparse jazz drum brushes, walking bass segments, short low saxophone phrases, and short brass accents. The first 2 seconds establish suspense with mysterious low frequencies and hi-hat, the 3rd second enters with a low drum beat, the 6th second adds a jazz bass groove, the 10th second features short saxophone/brass riffs, and the last 2 seconds use tense chords and drum beats to freeze. Overall mysterious, cool, with a crime feel, jazz only accounts for 40%, not too cheerful, do not imitate any existing melody.
-```
 
 <a id="browse-by-category"></a>
 
@@ -1763,6 +1590,179 @@ A nostalgic 15-second video blends live-action tram footage with hand-drawn glow
 ▍Camera Rhythm (Throughout the Film) - Always half a beat slower than the hand-drawn animation - The animation first escapes towards grab rails/seat seams/floor wood grain/route map/door glass/carriage center, then the camera hesitantly pans/looks down/looks up/advances/retreats to chase - Do not pre-compose shots, do not keep the animation steadily centered, do not steadily display the tram interior - Retain: handheld phone shake, tram travel sway, walking chase up-down movement, brief out-of-focus near glass, exposure flicker from streetlights outside window, natural motion blur - As if the shooter is really moving in the same carriage chasing it
 ▍Prohibitions (Throughout the Film) - Prohibit precise 3DCG, plush toy style, 3D rendering, smooth neon tubes, uniform vector lines, overly polished motion graphics - Prohibit overly cinematic lighting, advertisement photography-style clean composition, excessive depth of field blur - Prohibit subtitles, logos, background music - Prohibit sudden cuts to other scenes - Prohibit previous form disappearing and new characters appearing out of thin air - Prohibit huge eyes, split mouths, teeth, intimidation, pouncing, biting, sudden black screens, jump scares, horror monster-ization - The final spatial transformation must still be composed of hand-drawn glowing lines, can be fantastical and dreamlike, but maintain gentleness, nostalgia, cuteness, lifelike feel, gentle and slightly melancholic.
 ▍Ambient Sound (Throughout the Film) - Only use real sounds from inside the old-style tram carriage: low rumble of wheels on tracks, slight carriage swaying sounds, grab rail collision sounds, door button small mechanical sounds, paper ticket friction sounds, fabric seat being touched sounds, shooter's soft exclamations and hurried footsteps - Hand-drawn animation sounds: very light chalk friction sounds, small scraping sounds on glass, soft electronic tremolo, short comical chirping sounds
+```
+
+<a id="featured-prompts"></a>
+
+## 🔥 Featured Prompts
+
+### No. 1: Telescope Peek At MiniMax Fashion
+
+- **Category:** `Brand Film & Cinematic`
+- **Source:** `official`
+- **Author:** MiniMax
+- **Language:** `pt`
+- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HBLebv5HsoZXQaxjD0Hcw31qnWg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HwNib8cNAoNE68x7rvYcsgiknYg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/IWcAbqTVwofeglxkH1dc6GpjnEe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RhIjb64TVoeE2cx7Kd5cYdWanSr.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### Description
+
+A vintage telescope view reveals MiniMax in a stylish, Wes Anderson-inspired sequence with subtle text overlays.
+
+#### Prompt
+
+```text
+Image 1 to Image 4 continuous keyframes, simulating an old telescope finding the MINIMAX device. Start with out-of-focus handheld shake then quickly rack focus to Image 1, transitions between images via telescope panning (whip pan, motion blur, optical trailing, exposure flicker) switching at the most blurred point and quickly stabilizing to refocus. Maintain a fixed dual circular lens mask throughout (black feathered vignette, position, size, edge blur absolutely consistent without distortion or drift) with only internal image movement. In Image 2, fabric flutters gently in the wind, MINIMAX text undulates with the fabric surface remaining legible; Image 3 features a person walking naturally like an unintentionally captured fashionable passerby, turning and swinging arms; Image 4 shows the person adjusting glasses or slightly lifting chin, displaying a cool, relaxed fashion campaign attitude. Red text loads subtly with focus, initially slightly out-of-focus with low opacity, fading in to become clear within 0.3–0.5 seconds (allow minor vertical slide-in or letter-spacing breathing), fading out before switching or being taken away by motion blur. No rotation, bouncing, or large fly-ins/fly-outs. Wes Anderson-style peeping 35mm film texture (slight grain, soft highlight bloom, restrained colors, red text accents), minimalist, sophisticated, slightly quirky and lively. Strictly prohibit adding new people, vehicles, buildings, or logos. Maintain the core composition of the original images and the MINIMAX device unchanged.
+```
+
+### No. 2: Epic Sci-Fi Trailer Transitions
+
+- **Category:** `Brand Film & Cinematic`
+- **Source:** `official`
+- **Author:** MiniMax
+- **Language:** `pt`
+- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/UpIAbflwmoM5RnxqHCgcSgAon1L.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### Description
+
+Fast-paced, grand sci-fi cuts with bridge shakes, light flashes, and cinematic title animations.
+
+#### Prompt
+
+```text
+Faster rhythm, grand but not dragging. Quick hard cuts, bridge vibrations, intense light flashes, short black screens, jump shock transitions. Text is movie trailer-style wide letter-spacing title packaging, font not pure white, should have restrained glow and texture, faint edge glow. Text animations include fading in from deep space darkness, being swept by starlight, letter-spacing expansion, motion trails, faint glow, black screen flashes. (Not a complete prompt, details can be added independently)
+```
+
+### No. 3: Cinematic Portal To The Stars
+
+- **Category:** `Brand Film & Cinematic`
+- **Source:** `official`
+- **Author:** MiniMax
+- **Language:** `pt`
+- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VN1dbCVGdoo87MxC0n5c8Onknkf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/U6S1bbcoQoCJJ0xmMZbc2vDTn2V.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### Description
+
+A wide shot slowly pushes towards a massive dark cosmic portal with a lone, small figure before it.
+
+#### Prompt
+
+```text
+Realistic cinematic feel, high-contrast lighting, tight rhythm. Image 1 serves as overall atmosphere and style reference. Image 2 serves as main character reference. Shot 1 — Ultra-wide establishing shot. A huge circular cosmic portal almost fills the frame, the person is just a very small silhouette in front of it, standing at the lower right of the frame. The ground is wet and reflective, the portal's center is pure darkness. The camera slowly pushes forward. A large title fades in from the dark edge, blurry first then clear: "THE STARS WERE LISTENING" font extremely narrow, heavy, all caps, dark red mixed with rust red, with slight grain and foggy edges. Audio: Deep low-frequency pulse, distant metal faintly vibrating, a light hit when the text becomes clear. → Hard cut. (Not a complete prompt, details can be added independently)
+```
+
+### No. 4: Desert Fashion Campaign With Retro Car
+
+- **Category:** `Brand Film & Cinematic`
+- **Source:** `official`
+- **Author:** MiniMax
+- **Language:** `pt`
+- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Ff48brIHioEYGMxwPSQcugyVnQn.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/F7KbbSElsoRGdPx7sWZcqzkPnWe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XdCobH3TEo8icGxCUTyc90Hjnfh.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EiJVbxcX3oebPKxMCGXcq2iXnth.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### Description
+
+A high-fashion video of a woman retrieving a bag from a car trunk in a desert, blending clothing and bags naturally into the narrative.
+
+#### Prompt
+
+```text
+Produce a 16:9 horizontal high-end fashion brand video. The overall atmosphere, scenes, and film texture reference Image 1; the bag asset references Image 3; the character asset references Image 2; the brand ending logo references Image 4. This is a fashion campaign selling clothes and bags. The overall temperament should be high-end, cool, restrained, but the editing should not be boring; it should be more agile and have a fashionable rhythm. Do not make it like an ordinary drama or an e-commerce advertisement. The core story is still very simple: by a desert road and a retro car, a woman returns to the rear of the car, opens the trunk, takes out a black bag, shares a moment of quiet connection with a man standing by the car, and then she leaves with the bag. The bag and clothing should naturally integrate into the character's actions, becoming part of the character's temperament.
+```
+
+### No. 5: Night Fire Fashion Short With VHS Glitches
+
+- **Category:** `Brand Film & Cinematic`
+- **Source:** `official`
+- **Author:** MiniMax
+- **Language:** `pt`
+- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JfBib38b9ouKz7x3gj1cn0Ymn4d.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TMfGbI8YjoBdxAxRJ21cHzcxngg.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### Description
+
+A 15-second fashion short featuring a woman in a leather coat with firelight reflections, using VHS glitches and film grain effects.
+
+#### Prompt
+
+```text
+Image 1 is the reference for overall texture and atmosphere, Image 2 is the reference for character appearance. Generate a 15-second 16:9 horizontal trendy fashion short. Maintain character consistency: platinum blonde hair, narrow black retro sunglasses, black high-gloss patent leather trench coat, cool and confident fashion expression, orange reflections of firelight on the leather coat surface. The overall style is a film fast-cut fashion advertisement, integrating night fire scene, black smoke, orange-red flames, VHS glitches, CCTV broadcast interruption, 90s analog film grain, scan lines, chromatic aberration, light leaks, flash white transitions, and slight screen shake.
+```
+
+### No. 6: Retro Anime-Style Crime Movie Title Sequence
+
+- **Category:** `Visual Creative & Packaging`
+- **Source:** `official`
+- **Author:** MiniMax
+- **Language:** `pt`
+- **Video:** [View](https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/LMBybwa6xoa2QQxPV7scKl3rnxf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/G3jobXm0SoPLBQxbt8lcXGwonZf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/AwnIb2AgOobwvExdmfccdqBanCb.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HW8ObvPBooaYYexj5xuctLGnnVc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Gc3kbfFZeoj3HrxpC9rcUkb3nkc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Efn8bfBhjob3BXxRUZRcsqtnnOc.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### Description
+
+A 15-second title sequence with retro Japanese anime visuals, hard-edged silhouettes, and a suspenseful jazz soundtrack.
+
+#### Prompt
+
+```text
+Generate a 15-second 16:9 horizontal light suspense crime movie title sequence. The overall style references the visual language of these images: retro Japanese anime opening, hard-edged silhouettes, comic collage, asymmetric split screen, strong geometric color blocks, English title credits, a small amount of Japanese katakana decoration, jazz crime气质. The atmosphere is 60% suspense, 40% jazz: mysterious, cool, agile, with an urban crime feel, not horror, not heavy, and do not turn it into a cheerful jazz MV. The title motion graphics should be like dynamic graphic collage: black wireframes appear first, split-screen boundaries quickly slide out, color blocks and panels are pasted in piece by piece; character silhouettes, prop close-ups, English credits slide in, pop out, and are revealed by masks following the drumbeat. Do not use ordinary realistic narrative animation; aim for title packaging feel. English credits must be clearly readable, motion graphics are allowed: thin wireframes are drawn first, names slide in from within the frame, letters appear one by one, are revealed by color block masks, and finally pause briefly. Do not add Chinese, do not use garbled text, do not misspell English. Full video rule: All English credits and positions appear only once. Do not repeat the same position, do not repeat the same person's name, do not let the same person hold multiple positions. Transition forms should be rich: circular vinyl record mask, car door vertical cut, character long shadow wipe, red line cut, huge English letter mask, split-screen border reorganization, color block hard cut, panels pasted in piece by piece. All transitions follow the drumbeat, crisp, suspenseful, agile, with a comic collage feel. Do not use soft dissolves, do not use fluid transitions. BGM: Original 15-second title music, 60% suspense, 40% jazz. Composed of sustained low bass, tense string plucks, cool synth pulses, bass drum, sparse jazz drum brushes, walking bass segments, short low saxophone phrases, and short brass accents. The first 2 seconds establish suspense with mysterious low frequencies and hi-hat, the 3rd second enters with a low drum beat, the 6th second adds a jazz bass groove, the 10th second features short saxophone/brass riffs, and the last 2 seconds use tense chords and drum beats to freeze. Overall mysterious, cool, with a crime feel, jazz only accounts for 40%, not too cheerful, do not imitate any existing melody.
 ```
 
 <a id="faq"></a>
