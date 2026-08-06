@@ -1,0 +1,1819 @@
+# 🎬 MiniMax H3 提示詞大全 + MiniMax H3
+
+> 精选 MiniMax H3 官方案例视频提示词——品牌大片、动态图形、剧情、电商、游戏、工业等场景,每条都附真实生成成片。
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![GitHub stars](https://img.shields.io/github/stars/AtlasCloudAI/awesome-minimax-h3-prompts?style=social)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/pulls)
+[![Prompts](https://img.shields.io/badge/prompts-52%2B-blue.svg)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts)
+
+| [瀏覽提示詞](https://www.atlascloud.ai/prompts-hub/minimax-h3-prompt?utm_source=github&utm_campaign=awesome-minimax-h3-prompts&locale=zh-TW) | [提交提示詞](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/issues/new?template=prompt.yml) | [在 Atlas Cloud 生成](https://www.atlascloud.ai/?utm_source=github&utm_campaign=awesome-minimax-h3-prompts) | [取得 API Key](https://www.atlascloud.ai/console/api-keys?utm_source=github&utm_campaign=awesome-minimax-h3-prompts) |
+|---|---|---|---|
+
+[![English](https://img.shields.io/badge/English-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/README.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_zh.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-%E7%9B%AE%E5%89%8D-brightgreen)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_zh-TW.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_ja.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_ko.md) [![ไทย](https://img.shields.io/badge/%E0%B9%84%E0%B8%97%E0%B8%A2-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_th.md) [![Tiếng Việt](https://img.shields.io/badge/Ti%E1%BA%BFng%20Vi%E1%BB%87t-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_vi.md) [![हिन्दी](https://img.shields.io/badge/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_hi.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_es.md) [![Deutsch](https://img.shields.io/badge/Deutsch-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_fr.md) [![Italiano](https://img.shields.io/badge/Italiano-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_it.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_pt.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_tr.md) [![العربية](https://img.shields.io/badge/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_ar.md) [![Bahasa Indonesia](https://img.shields.io/badge/Bahasa%20Indonesia-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_id.md) [![Nederlands](https://img.shields.io/badge/Nederlands-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_nl.md) [![Polski](https://img.shields.io/badge/Polski-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_pl.md) [![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_ru.md) [![Svenska](https://img.shields.io/badge/Svenska-%E6%9F%A5%E7%9C%8B-lightgrey)](https://github.com/AtlasCloudAI/awesome-minimax-h3-prompts/blob/main/i18n/README_sv.md)
+
+---
+
+<a id="contents"></a>
+
+## 📖 目錄
+
+- [🤔 MiniMax H3 是什麼？](#model-overview)
+- [🧩 MiniMax H3 提示詞指南](#prompt-guide)
+- [🚀 如何使用這個倉庫](#how-to-use)
+- [⚙️ 預設模型與執行方式](#model-and-execution-defaults)
+- [🔎 收錄標準與來源說明](#curation-and-provenance)
+- [📊 統計資料](#statistics)
+- [🔥 精選提示詞](#featured-prompts)
+- [🏷️ 按分類瀏覽](#browse-by-category)
+- [📋 全部提示詞](#all-prompts)
+- [❓ 常見問題](#faq)
+- [🔗 相關資源](#resources)
+- [📄 授權條款](#license)
+
+<a id="model-overview"></a>
+
+## 🤔 MiniMax H3 是什麼？
+
+MiniMax H3 是字節跳動繼 MiniMax H3 之後推出的下一代多模態影片生成模型，面向參考素材驅動的影片創作、更完整的敘事、音影片同步和精確的視覺控制。
+
+**上線資訊：** MiniMax H3 預計於 2026 年 8 月上線。Atlas Cloud 是 MiniMax H3 首批 API 上線的官方合作夥伴之一。
+
+公開的 MiniMax H3 發布資料描述了最長 30 秒、原生 4K、最多 50 個多模態參考素材和局部區域編輯等能力。這些是已發布的能力資訊，不應直接視為所有 API 都支援的固定參數。
+
+**Availability note:** reference limits, duration, resolution and editing controls differ per provider — check the model page before a billable run.
+
+<a id="prompt-guide"></a>
+
+## 🧩 MiniMax H3 提示詞指南
+
+
+1. **參考綁定：** 明確每張圖片、每段影片或音訊分別控制什麼。
+2. **可觀察動作：** 按時間順序寫清畫面中真正發生的事件、反應和狀態變化。
+3. **空間關係：** 寫清主體、物體與鏡頭之間的位置和相對關係。
+4. **鏡頭與剪輯：** 只在必要時指定景別、運鏡、切鏡順序、動作匹配和遮擋轉場。
+5. **視覺風格：** 定義光線、色彩、材質、氛圍和節奏。
+6. **音訊：** 當所選模型支援時，定義對白、環境聲、音效或音樂。
+7. **約束：** 只保留真正重要的人物身分、產品細節、場景特徵和禁止項。
+
+<a id="how-to-use"></a>
+
+## 🚀 如何使用這個倉庫
+
+1. **瀏覽：** 按分類尋找提示詞；有真實預覽時先看預覽，再複製提示詞。
+2. **最佳化：** 讓 MiniMax H3 根據主體、時長、畫幅、參考素材和連續性要求改寫提示詞。
+3. **生成：** 需要 Storyboard 時先生成並展示中間圖，由 Agent 自行檢查品質，然後透過所選 Atlas 通道提交圖片或影片任務。
+
+<a id="model-and-execution-defaults"></a>
+
+## ⚙️ 預設模型與執行方式
+
+Every prompt in this library is reproducible: the reference assets are linked next to it, and the model endpoints are the public Atlas Cloud ones.
+
+### 預設模型
+
+**Storyboard 靜幀：** Seedream 5.0 Pro。**目前預設影片模型：** MiniMax H3。**MiniMax H3：** 只有所選服務商實際提供模型和明確參數限制時才使用。
+
+- **Atlas MCP：** 只有使用者明確選擇 MCP，且目前客戶端提供生成工具時才使用。
+- **Atlas CLI / REST：** 用於使用者明確選擇的終端機、腳本、CI 或批次任務。
+
+所有非同步任務都使用同一個 prediction ID 每 2 秒輪詢一次。逾時或暫時沒有輸出，不代表可以重複提交付費生成任務。
+
+**[→ 取得 Atlas Cloud API Key](https://www.atlascloud.ai/console/api-keys?utm_source=github&utm_campaign=awesome-minimax-h3-prompts)**
+
+<a id="curation-and-provenance"></a>
+
+## 🔎 收錄標準與來源說明
+
+每條提示詞都會保留分類、來源平台、作者、原始連結、輸入參考素材，以及可用時的預覽影片。README 生成過程不會改寫提示詞正文。
+
+- `official` 和 `community` 標籤表示提示詞的來源性質，並不代表每條提示詞都已經在所有服務商和模型版本上完成獨立測試。
+- 預覽影片代表原始設定下的一次真實輸出。模型版本、服務商參數、參考素材、畫幅、seed 和內容審核變化，都可能導致不同結果。
+
+<a id="statistics"></a>
+
+## 📊 統計資料
+
+
+| 指標 | 數量 |
+|--------|-------|
+| 提示詞總數 | **52** |
+| 分類數 | **16** |
+| 預覽影片數 | **52** |
+| 最後更新 | **2026-08-06** |
+
+<a id="featured-prompts"></a>
+
+## 🔥 精選提示詞
+
+### No. 1: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HBLebv5HsoZXQaxjD0Hcw31qnWg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HwNib8cNAoNE68x7rvYcsgiknYg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/IWcAbqTVwofeglxkH1dc6GpjnEe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RhIjb64TVoeE2cx7Kd5cYdWanSr.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远…
+
+#### 提示詞
+
+```text
+图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远镜扫视转场（甩动、运动模糊、光学拖影、曝光闪烁）在最模糊处切换并迅速稳定重新对焦。全程固定双圆镜片遮罩（黑色羽化暗角、位置大小边缘虚化绝对一致无变形漂移）仅内部画面运动。图2布料随风克制飘动MINIMAX文字随布面起伏保持可读；图3人物如无意捕捉的时尚路人自然走动转身摆臂；图4人物调整眼镜或微抬下巴展现冷感松弛fashion campaign态度。红字随对焦轻微加载，初现略虚焦低透明度0.3–0.5秒内淡入变清晰（可微小纵向滑入或字距呼吸）切换前淡出或被运动模糊带走，禁旋转弹跳或大幅飞入飞出。Wes Anderson式窥视35mm胶片质感（轻微颗粒、柔和高光晕染、克制色彩、红字点缀），极简高级微带搞怪灵动，严禁新增人物车辆建筑logo，保持原图核心构图与MINIMAX装置不变。
+```
+
+### No. 2: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/UpIAbflwmoM5RnxqHCgcSgAon1L.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要…
+
+#### 提示詞
+
+```text
+节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要有克制发光和材质感、微弱边缘辉光。文字动效包含从深空暗部渐入、被星光扫亮、字距展开、残影、微弱发光、黑场闪现。 （非完整Prompt，可自行补充细节）
+```
+
+### No. 3: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VN1dbCVGdoo87MxC0n5c8Onknkf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/U6S1bbcoQoCJJ0xmMZbc2vDTn2V.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。…
+
+#### 提示詞
+
+```text
+写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。巨大圆形宇宙门几乎占满画面，人物只是门前一个很小的背影，站在画面下方偏右。地面潮湿反光，门中心一片黑暗。镜头慢慢向前推进。大标题从黑暗边缘渐入，先模糊后清晰："THE STARS WERE LISTENING" 字体极窄、厚重、全大写，暗红混合铁锈红，带轻微颗粒和雾化边缘。 Audio: 深低频脉冲，远处金属轻震，文字清晰时一记轻 hit。 → Hard cut. （非完整Prompt，可自行补充细节）
+```
+
+### No. 4: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Ff48brIHioEYGMxwPSQcugyVnQn.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/F7KbbSElsoRGdPx7sWZcqzkPnWe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XdCobH3TEo8icGxCUTyc90Hjnfh.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EiJVbxcX3oebPKxMCGXcq2iXnth.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 e…
+
+#### 提示詞
+
+```text
+制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 ending logo 参考图4。这是一支卖衣服和包的时尚 campaign，整体气质要高级、冷感、克制，但剪辑不能无聊，要更灵动、更有时尚节奏。不要像普通剧情片，也不要像电商广告。核心故事依然很简单：荒漠公路和复古车旁，女人回到车尾，打开后备箱，取出黑色包袋，和站在车边的男人有一瞬间的安静关系，然后她拿着包离开。包和服装要自然融入人物行动里，成为角色气质的一部分。
+```
+
+### No. 5: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JfBib38b9ouKz7x3gj1cn0Ymn4d.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TMfGbI8YjoBdxAxRJ21cHzcxngg.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长…
+
+#### 提示詞
+
+```text
+图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长发、窄黑色复古墨镜、黑色高光漆皮风衣、冷酷自信的时尚表情、火光映在皮衣表面的橙色反射。整体风格是胶片快切时尚广告，融合夜晚火场、黑烟、橙红火焰、VHS 故障、CCTV 广播中断、90 年代模拟胶片颗粒、扫描线、色差、漏光、闪白转场、画面轻微抖动。
+```
+
+### No. 6: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/LMBybwa6xoa2QQxPV7scKl3rnxf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/G3jobXm0SoPLBQxbt8lcXGwonZf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/AwnIb2AgOobwvExdmfccdqBanCb.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HW8ObvPBooaYYexj5xuctLGnnVc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Gc3kbfFZeoj3HrxpC9rcUkb3nkc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Efn8bfBhjob3BXxRUZRcsqtnnOc.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称…
+
+#### 提示詞
+
+```text
+生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称分屏、强烈几何色块、英文片头署名、少量日文片假名装饰、爵士犯罪气质。氛围是60%悬疑、40%爵士：神秘、酷、灵动、有都市犯罪感，不恐怖、不沉重，也不要变成欢乐爵士MV。片头动效要像动态图形拼贴：黑底线框先出现，分屏边界快速划出，色块和画格逐块贴入；人物剪影、道具特写、英文署名跟随鼓点依次滑入、弹出、遮罩揭示。不要普通写实剧情动画，要片头包装感。英文署名要清晰可读，允许有动效：细线框先画出，名字从框内滑入，字母逐个出现，被色块遮罩揭示，最后短暂停住。不要新增中文，不要乱码，不要让英文错拼。全片规则：所有英文署名和职位只出现一次。不要重复同一个职位，不要重复同一个人名，不要让同一个人担任多个职位。转场形式要丰富：圆形黑胶遮罩、车门竖切、人物长影擦屏、红线切割、巨大英文字母遮罩、分屏边框重组、色块硬切、画格逐块贴入。所有转场跟随鼓点，干脆、悬疑、灵动、有漫画拼贴感。不要柔和溶解，不要流体转场。BGM：原创15秒片头音乐，60%悬疑、40%爵士。以低音持续音、紧张弦乐拨奏、冷感合成器脉冲、低音鼓、稀疏爵士鼓刷、walking bass片段、低音萨克斯短句和短促铜管点缀组成。前2秒神秘低频和踩镲建立悬疑，第3秒进入低沉鼓点，第6秒加入爵士贝斯律动，第10秒出现短促萨克斯/铜管riff，最后2秒用紧张和弦加鼓点定格。整体神秘、酷、带犯罪感，爵士只占40%，不要太欢快，不模仿任何现有旋律。
+```
+
+<a id="browse-by-category"></a>
+
+## 🏷️ 按分類瀏覽
+
+
+- [`品牌大片与影视`](#category-1): **5**
+- [`视觉创意与包装`](#category-2): **8**
+- [`动态图形与特效`](#category-3): **4**
+- [`AI 剧情创作`](#category-4): **3**
+- [`产品与电商`](#category-5): **2**
+- [`数字体验与游戏`](#category-6): **5**
+- [`工业与具身智能`](#category-7): **2**
+- [`动画与风格化`](#category-8): **6**
+- [`多素材联合参考`](#category-9): **3**
+- [`角色动作镜头参考`](#category-10): **3**
+- [`音色克隆`](#category-11): **1**
+- [`角色与物体编辑`](#category-12): **2**
+- [`场景与效果编辑`](#category-13): **1**
+- [`声音台词编辑`](#category-14): **1**
+- [`精准指令遵循`](#category-15): **4**
+- [`特定风格`](#category-16): **2**
+
+<a id="all-prompts"></a>
+
+## 📋 全部提示詞
+
+
+<a id="category-1"></a>
+
+### 品牌大片与影视 (5)
+
+### No. 1: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ToXLbZJdConRIgxrwqZcGxN2nNd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HBLebv5HsoZXQaxjD0Hcw31qnWg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HwNib8cNAoNE68x7rvYcsgiknYg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/IWcAbqTVwofeglxkH1dc6GpjnEe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RhIjb64TVoeE2cx7Kd5cYdWanSr.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远…
+
+#### 提示詞
+
+```text
+图1至图4连续关键帧，模拟老式望远镜寻MINIMAX装置。开头虚焦手持晃动后快速拉近rack focus至图1，图间望远镜扫视转场（甩动、运动模糊、光学拖影、曝光闪烁）在最模糊处切换并迅速稳定重新对焦。全程固定双圆镜片遮罩（黑色羽化暗角、位置大小边缘虚化绝对一致无变形漂移）仅内部画面运动。图2布料随风克制飘动MINIMAX文字随布面起伏保持可读；图3人物如无意捕捉的时尚路人自然走动转身摆臂；图4人物调整眼镜或微抬下巴展现冷感松弛fashion campaign态度。红字随对焦轻微加载，初现略虚焦低透明度0.3–0.5秒内淡入变清晰（可微小纵向滑入或字距呼吸）切换前淡出或被运动模糊带走，禁旋转弹跳或大幅飞入飞出。Wes Anderson式窥视35mm胶片质感（轻微颗粒、柔和高光晕染、克制色彩、红字点缀），极简高级微带搞怪灵动，严禁新增人物车辆建筑logo，保持原图核心构图与MINIMAX装置不变。
+```
+
+### No. 2: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/BeC4bHicWoQLSkxoXEEcRmMznBh.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/UpIAbflwmoM5RnxqHCgcSgAon1L.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要…
+
+#### 提示詞
+
+```text
+节奏更快，宏大但不拖。快速硬切、舰桥震动、强光爆闪、短黑场、跃迁冲击。文字是电影预告片式宽字距标题包装，字体不要纯白，要有克制发光和材质感、微弱边缘辉光。文字动效包含从深空暗部渐入、被星光扫亮、字距展开、残影、微弱发光、黑场闪现。 （非完整Prompt，可自行补充细节）
+```
+
+### No. 3: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JRqjbEQnMoHsJBxXgagcnxcinId.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VN1dbCVGdoo87MxC0n5c8Onknkf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/U6S1bbcoQoCJJ0xmMZbc2vDTn2V.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。…
+
+#### 提示詞
+
+```text
+写实电影感，高反差光影，节奏紧凑。图1作为整体氛围、风格参考。图2作为主角人物参考。 Shot 1 — 超广角建立镜头。巨大圆形宇宙门几乎占满画面，人物只是门前一个很小的背影，站在画面下方偏右。地面潮湿反光，门中心一片黑暗。镜头慢慢向前推进。大标题从黑暗边缘渐入，先模糊后清晰："THE STARS WERE LISTENING" 字体极窄、厚重、全大写，暗红混合铁锈红，带轻微颗粒和雾化边缘。 Audio: 深低频脉冲，远处金属轻震，文字清晰时一记轻 hit。 → Hard cut. （非完整Prompt，可自行补充细节）
+```
+
+### No. 4: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/WtUJbD02RoeGCAx4X4lc6zMenle.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Ff48brIHioEYGMxwPSQcugyVnQn.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/F7KbbSElsoRGdPx7sWZcqzkPnWe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XdCobH3TEo8icGxCUTyc90Hjnfh.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EiJVbxcX3oebPKxMCGXcq2iXnth.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 e…
+
+#### 提示詞
+
+```text
+制作一支 16:9 横版高级时尚品牌视频。整体氛围、场景和胶片质感参考图1；包袋资产参考图3；人物资产参考图2；品牌 ending logo 参考图4。这是一支卖衣服和包的时尚 campaign，整体气质要高级、冷感、克制，但剪辑不能无聊，要更灵动、更有时尚节奏。不要像普通剧情片，也不要像电商广告。核心故事依然很简单：荒漠公路和复古车旁，女人回到车尾，打开后备箱，取出黑色包袋，和站在车边的男人有一瞬间的安静关系，然后她拿着包离开。包和服装要自然融入人物行动里，成为角色气质的一部分。
+```
+
+### No. 5: 品牌大片与影视内容
+
+- **分類:** `品牌大片与影视`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/HLw0bGRvCofotYx8noHcILpXnIe.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JfBib38b9ouKz7x3gj1cn0Ymn4d.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TMfGbI8YjoBdxAxRJ21cHzcxngg.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长…
+
+#### 提示詞
+
+```text
+图1是整体质感、氛围参考，图2是人物外表特征参考。生成一支 15 秒 16:9 横版潮流时装短片。保持人物一致：白金色长发、窄黑色复古墨镜、黑色高光漆皮风衣、冷酷自信的时尚表情、火光映在皮衣表面的橙色反射。整体风格是胶片快切时尚广告，融合夜晚火场、黑烟、橙红火焰、VHS 故障、CCTV 广播中断、90 年代模拟胶片颗粒、扫描线、色差、漏光、闪白转场、画面轻微抖动。
+```
+
+<a id="category-2"></a>
+
+### 视觉创意与包装 (8)
+
+### No. 1: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Zn97bxtj2onC0yxHbq6cUNIYnYZ.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/LMBybwa6xoa2QQxPV7scKl3rnxf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/G3jobXm0SoPLBQxbt8lcXGwonZf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/AwnIb2AgOobwvExdmfccdqBanCb.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/HW8ObvPBooaYYexj5xuctLGnnVc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Gc3kbfFZeoj3HrxpC9rcUkb3nkc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Efn8bfBhjob3BXxRUZRcsqtnnOc.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称…
+
+#### 提示詞
+
+```text
+生成一支15秒16:9横版轻悬疑犯罪电影片头。整体风格参考这些图的视觉语言：复古日系动画片头、硬边剪影、漫画拼贴、非对称分屏、强烈几何色块、英文片头署名、少量日文片假名装饰、爵士犯罪气质。氛围是60%悬疑、40%爵士：神秘、酷、灵动、有都市犯罪感，不恐怖、不沉重，也不要变成欢乐爵士MV。片头动效要像动态图形拼贴：黑底线框先出现，分屏边界快速划出，色块和画格逐块贴入；人物剪影、道具特写、英文署名跟随鼓点依次滑入、弹出、遮罩揭示。不要普通写实剧情动画，要片头包装感。英文署名要清晰可读，允许有动效：细线框先画出，名字从框内滑入，字母逐个出现，被色块遮罩揭示，最后短暂停住。不要新增中文，不要乱码，不要让英文错拼。全片规则：所有英文署名和职位只出现一次。不要重复同一个职位，不要重复同一个人名，不要让同一个人担任多个职位。转场形式要丰富：圆形黑胶遮罩、车门竖切、人物长影擦屏、红线切割、巨大英文字母遮罩、分屏边框重组、色块硬切、画格逐块贴入。所有转场跟随鼓点，干脆、悬疑、灵动、有漫画拼贴感。不要柔和溶解，不要流体转场。BGM：原创15秒片头音乐，60%悬疑、40%爵士。以低音持续音、紧张弦乐拨奏、冷感合成器脉冲、低音鼓、稀疏爵士鼓刷、walking bass片段、低音萨克斯短句和短促铜管点缀组成。前2秒神秘低频和踩镲建立悬疑，第3秒进入低沉鼓点，第6秒加入爵士贝斯律动，第10秒出现短促萨克斯/铜管riff，最后2秒用紧张和弦加鼓点定格。整体神秘、酷、带犯罪感，爵士只占40%，不要太欢快，不模仿任何现有旋律。
+```
+
+### No. 2: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/YVLnb4hFSoMrBHxQXpPcGHRcnLg.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/YVLnb4hFSoMrBHxQXpPcGHRcnLg.mp4" controls muted playsinline width="720"></video>
+
+#### 描述
+
+15秒、16:9横向视频。将傍晚小厨房的真人实拍与手绘发光动画融合在一起的影像。夕阳余晖还残留在窗边，生活感十足的小厨房…
+
+#### 提示詞
+
+```text
+15秒、16:9横向视频。将傍晚小厨房的真人实拍与手绘发光动画融合在一起的影像。夕阳余晖还残留在窗边，生活感十足的小厨房里有一张旧木桌、洗到一半的马克杯、略微起雾的玻璃瓶，以及悬挂着的抹布。画面带有像用智能手机单手拍摄一样的细微手抖、近距离对焦时的犹豫、逆光造成的曝光波动，以及暗部略显粗糙的噪点。不要像广告影像那样精心整理，而是要呈现出像是在家中慌忙拍下某个不可思议事件的自然质感。禁止出现巨大的眼睛、裂开的嘴、獠牙、威吓、扑袭动作、突然黑屏和跳吓。声音只使用厨房室内环境声、抹布摩擦声、马克杯轻微碰撞声、水龙头水滴声、拍摄者的脚步声与轻微呼吸声，以及手绘生物柔和的电子音和小小的叫声。
+```
+
+### No. 3: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/YM89bFxw3oRB37xzw8TcG9H1nCg.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/YM89bFxw3oRB37xzw8TcG9H1nCg.mp4" controls muted playsinline width="720"></video>
+
+#### 描述
+
+15 秒、16:9 横版短视频。实拍深夜自助洗衣店场景，融合手绘发光动画的混合影像。一间小型自助洗衣店，荧光灯微微频闪，…
+
+#### 提示詞
+
+```text
+15 秒、16:9 横版短视频。实拍深夜自助洗衣店场景，融合手绘发光动画的混合影像。一间小型自助洗衣店，荧光灯微微频闪，店内摆放着运转中的洗衣机、塑料洗衣篮、老旧长椅，地面散落一只袜子，整体空间安静，带着淡淡的怀旧氛围感。手持手机单手拍摄质感，画面抖动明显；白色荧光灯造成曝光忽明忽暗；玻璃表面带有环境反光；镜头靠近物体时对焦存在延迟。画面不要像商业广告一样精致规整，整体质感如同深夜偶然闯入、追着奇异幻象随手拍下的真实纪实感。
+```
+
+### No. 4: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/D0SHbWNTMoXZZrxxocdcpzw5nuc.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/D0SHbWNTMoXZZrxxocdcpzw5nuc.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/SDMObN1Afon7HUx1za7chk8sn8c.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/FNeKbhZqioQ4pJx8w9FcVV6vnjh.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+风格：dark-pop / cyber-grunge / rap 音乐视频，写实高时装质感，胶片杂志质感，高反差但不廉价…
+
+#### 提示詞
+
+```text
+风格：dark-pop / cyber-grunge / rap 音乐视频，写实高时装质感，胶片杂志质感，高反差但不廉价。整体参考 90 年代末到 00 年代初独立杂志、复印纸、胶片扫描、地下音乐海报和 zine 拼贴美学。画面有粗颗粒、轻微胶片抖动、半色调网点、印刷毛边和扫描错位。剪辑节奏快，只使用硬切，不使用淡入淡出或柔和转场。 文字包装样式和质感参考图片。
+```
+
+### No. 5: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/E6V3b0eRTorGUGx3eKUczimKnGa.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/E6V3b0eRTorGUGx3eKUczimKnGa.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/LhoEbMXc6oaSq0xOCaxclKE6nXc.mp4" controls muted width="360"></video>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/NAAAbt477oL0RSx25eqcY031nCd.mp4" controls muted width="360"></video>
+
+#### 描述
+
+将视频1绿幕背景去除，变成类似视频2的童话感背景，背景元素需要完全匹配视频1的人物动作。修改视频1的人物光线，使之完全匹…
+
+#### 提示詞
+
+```text
+将视频1绿幕背景去除，变成类似视频2的童话感背景，背景元素需要完全匹配视频1的人物动作。修改视频1的人物光线，使之完全匹配背景。
+```
+
+### No. 6: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/PvdzbKzuqovEAkxwBjncrR6HnBf.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/PvdzbKzuqovEAkxwBjncrR6HnBf.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/R1e3biYcnoTE1cxrOhxcXVDLnWd.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+制作一段 动态海报视频，整体保持原图的画廊白框、内框、红白黑配色、3D 手办感和排版结构不变，文字出来时配上灵动文字出场…
+
+#### 提示詞
+
+```text
+制作一段 动态海报视频，整体保持原图的画廊白框、内框、红白黑配色、3D 手办感和排版结构不变，文字出来时配上灵动文字出场的音效。
+```
+
+### No. 7: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/LyHxbXmOWomFA1x94HRcl0lonWg.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/LyHxbXmOWomFA1x94HRcl0lonWg.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JzyibR9mMokCgfx49WZcsBVjndh.mp4" controls muted width="360"></video>
+
+#### 描述
+
+16:9 横向视频，总时长约 10～15 秒，全 4 个镜头，每个镜头约 3 秒，用节奏明快的硬切连接。画面是“海边小集…
+
+#### 提示詞
+
+```text
+16:9 横向视频，总时长约 10～15 秒，全 4 个镜头，每个镜头约 3 秒，用节奏明快的硬切连接。画面是“海边小集市”的实拍智能手机影像，背景包含浅色摊位、遮阳棚、贝壳饰品、冰饮摊、海风吹动的布帘、远处沙滩和淡蓝色海面，整体氛围明亮、轻快、夏日感强。拍摄者右手以正常、自然、正确的写字握笔姿势拿一支细的青蓝色笔，从画面下部进入，每个镜头只指向一个现实对象，被指到的对象整体变成粗糙手绘 2D 动画，其他背景和未指向元素全部保持实拍。
+```
+
+### No. 8: 视觉创意与内容包装
+
+- **分類:** `视觉创意与包装`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/XWwnbKQMHo5vmkx3sa8c78Wbnfb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/XWwnbKQMHo5vmkx3sa8c78Wbnfb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/QDQjbe9Aso7ytKxuu10clJXxnKD.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+主角出现在画面里的白色矩形框中，双手扶住框边，先探出头和上半身，然后一只脚踩住下方的白色线条，身体下压蓄力。镜头轻微推近…
+
+#### 提示詞
+
+```text
+主角出现在画面里的白色矩形框中，双手扶住框边，先探出头和上半身，然后一只脚踩住下方的白色线条，身体下压蓄力。镜头轻微推近，随后主角借力向上弹出画面。
+切到 IMG1的空间。主角落在画面中的白色立体字体上方，坐在字体顶部边缘，双腿自然垂下。短暂停顿后，主角转头看向画面右侧的背景人物，形成一次清晰的视线互动。
+随后主角朝画面右上角抛出一条细白色弹力绳，借力做一次弧线摆荡动作。镜头跟随主角做快速横向移动，保持平面海报空间穿梭感。
+切到 IMG2 的空间。主角顺着弧线下落，踩到画面中的播放键上方。他用脚或手轻敲播放键，触发一次简洁的按压反馈。
+最后切到 IMG3.png。主角从播放键位置向画面右侧跑动，回到背景卡片中的原本位置并站定归位。全片使用快速横向跟拍、卡点闪切、轻微推拉和干净的平面空间转场。保持白色、灰色和原图设计元素，不添加血腥、打斗、武器、超级英雄标志或版权角色元素。
+```
+
+<a id="category-3"></a>
+
+### 动态图形与特效 (4)
+
+### No. 1: 1.3 动态图形、MG动画、AE特效
+
+- **分類:** `动态图形与特效`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/TzPub7XD1o9u3kxFUfNc7zz0nce.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/TzPub7XD1o9u3kxFUfNc7zz0nce.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/ZWdhbA9vio9T67xEz3BcP4kJnJp.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/IbLObfAs7oMPc2x1EeJcydCEndb.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+短片的准确开场画面。完整保留电光蓝背景、左侧白色“MiniMax”、中央浅蓝章鱼Logo和右侧白色“H3”。 图片2:章…
+
+#### 提示詞
+
+```text
+短片的准确开场画面。完整保留电光蓝背景、左侧白色“MiniMax”、中央浅蓝章鱼Logo和右侧白色“H3”。 图片2:章鱼Logo完成线性形变后的目标波形Logo参考，也是后半段贯穿画面的核心图形。严格保持波形Logo的路径结构、弯曲数量、圆角端点和整体比例。生成一支严格15秒、16:9、4K、60fps的MiniMax H3抽象科技MG品牌短片。短片表达H3从专用任务走向通用多模态模型的设计理念：语言、图片、视频和音频不再彼此隔离，而是被同一个上下文、同一套架构和同一根连续线连接起来。整体风格高级、简洁、灵动、有艺术感。采用大面积电光蓝、深黑蓝、浅青色和少量紫色色块，搭配干净的白色粗体文字。画面具有大量负空间，避免复杂图标和信息堆叠。全片的核心运动元素是一根浅蓝色连续线，以及位于线条前端的白色发光节点。
+```
+
+### No. 2: 1.3 动态图形、MG动画、AE特效
+
+- **分類:** `动态图形与特效`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/CgaIbUb5yo9wCQxEKLdcbBISnbr.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/CgaIbUb5yo9wCQxEKLdcbBISnbr.mp4" controls muted playsinline width="720"></video>
+
+#### 描述
+
+为 AI 品牌“MiniMax H3”创作一支15秒高端平面动态图形品牌影片。【必须准确显示的文字】品牌名称：MiniM…
+
+#### 提示詞
+
+```text
+为 AI 品牌“MiniMax H3”创作一支15秒高端平面动态图形品牌影片。【必须准确显示的文字】品牌名称：MiniMax H3
+品牌 Slogan：Intelligence With Everyone
+除以上两组文字外，画面中不得出现任何其他可读文字。
+【核心创意】“One becomes everyone.”
+智能从一个微小节点出发，通过连接、共享与共同生长，形成属于每个人的开放智能网络。
+以三种基础元素建立一套原创品牌视觉系统：
+```
+
+### No. 3: 1.3 动态图形、MG动画、AE特效
+
+- **分類:** `动态图形与特效`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/JuTJbsEbpo68VNxn2wGcR6kUnvh.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JuTJbsEbpo68VNxn2wGcR6kUnvh.mp4" controls muted playsinline width="720"></video>
+
+#### 描述
+
+整体为完全黑色背景上的中文动态字体实验影像。画面中只允许出现白色中文文字，以及极少量深红色文字错位或强调。不得出现人物、…
+
+#### 提示詞
+
+```text
+整体为完全黑色背景上的中文动态字体实验影像。画面中只允许出现白色中文文字，以及极少量深红色文字错位或强调。不得出现人物、风景、照片、插画、图标、商品、Logo、3D 物体、英文标题、固定 UI、编号、计时器、边框、网格或任何装饰性图形。这不是普通字幕视频，而是以“中文文字本身”为唯一主角的高密度动态排版短片。文字在漆黑平面上高速出现、放大、旋转、压缩、碰撞、分解、增殖、反转、重组。整体风格像平面设计师制作的中文动态字体实验影像、文字运动 showreel、音乐活动开场视觉。气质黑暗、冷静、锋利、理性、无机质，略带攻击性，但保持高级、克制、统一。
+```
+
+### No. 4: 1.3 动态图形、MG动画、AE特效
+
+- **分類:** `动态图形与特效`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/XS2Mb7r6JoUl0BxX2ALcsNFWnwe.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/XS2Mb7r6JoUl0BxX2ALcsNFWnwe.mp4" controls muted playsinline width="720"></video>
+
+#### 描述
+
+所有框只能是红色或者青色的完整、简单、连续的闭合矩形，四个顶点没有任何装饰或节点。                   …
+
+#### 提示詞
+
+```text
+所有框只能是红色或者青色的完整、简单、连续的闭合矩形，四个顶点没有任何装饰或节点。                                               5. 不允许一个框完整包含另一个框。
+```
+
+<a id="category-4"></a>
+
+### AI 剧情创作 (3)
+
+### No. 1: AI 剧情内容创作
+
+- **分類:** `AI 剧情创作`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/VnYOb81eSo4TZQxBZ22caqGSnde.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/VnYOb81eSo4TZQxBZ22caqGSnde.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RepWb0OJWoI1bPx8ckncennXnIg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/T8cHbBZz5ollWbxs8dscSirenqh.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+古装武侠悬疑短剧场景，16:9 横向电影画幅，夜晚竹林，冷蓝、墨绿、灰黑低饱和色调，薄雾弥漫，细雪在空气中飘落。整体氛围…
+
+#### 提示詞
+
+```text
+古装武侠悬疑短剧场景，16:9 横向电影画幅，夜晚竹林，冷蓝、墨绿、灰黑低饱和色调，薄雾弥漫，细雪在空气中飘落。整体氛围清冷、肃杀、克制，有江湖门派办案、秘密情报交接的紧张感。画面真实古装剧质感，浅景深，电影级光影，不要现代元素，不要字幕，不要文字，不要水印。场景：夜晚竹林深处，背景是密集竖向竹竿，远处有冷白雾光透出。前景有虚化竹叶遮挡，形成“林中窥视”的空间层次。冷白侧前方柔光照亮人物面部，背景逆光营造前暗后亮的电影感，浅景深，竹叶、雪花和背景竹林虚化成柔和散景。画面风格：古装武侠电影感，冷蓝墨绿雪夜竹林，浅景深，前景竹叶遮挡，人物面部特写为主，正反打剪辑，节奏克制但紧张。不要字幕、不要平台水印、不要现代服装、不要现代建筑、不要动画感、不要过度磨皮、不要明亮白天、不要喜剧表演。
+```
+
+### No. 2: AI 剧情内容创作
+
+- **分類:** `AI 剧情创作`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/FczLb4nDsoE2odx3DTJce8jMnRb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/FczLb4nDsoE2odx3DTJce8jMnRb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EWGXblwzLoAmXixFr9ac47uUnFe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/DBXNb5UiaoubblxvReOcDpa5nIg.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+室内家庭争吵短剧场景，竖屏短剧质感，真实真人表演，中式家庭/小饭馆室内环境，暖色灯光，背景有红色装饰和书法字幅，浅景深，…
+
+#### 提示詞
+
+```text
+室内家庭争吵短剧场景，竖屏短剧质感，真实真人表演，中式家庭/小饭馆室内环境，暖色灯光，背景有红色装饰和书法字幅，浅景深，情绪强烈，剪辑节奏紧凑。表演要求：真实短剧表演风格，不要夸张舞台腔。秦皓瑄的语气是愤怒、委屈、急切的反驳；中老年女性的语气是尖锐、强势、咄咄逼人的质问。两人之间有强烈对峙感，节奏逐步升级。画面风格：竖屏9:16，手机短剧质感，真人实拍感，浅景深，室内暖光，中近景为主，频繁正反打剪辑，背景保持生活化，不要科幻、不要古装、不要动画感。画面中不要出现任何字幕、文字、平台水印或贴片。
+```
+
+### No. 3: AI 剧情内容创作
+
+- **分類:** `AI 剧情创作`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/G00TbHUQeoQFEhxpflVc3sYVnkc.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/G00TbHUQeoQFEhxpflVc3sYVnkc.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Tx17bt4JLoMrSMxxiYIcZh35nQd.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/BchCb0xiXoXLKixbFlZcap8znCf.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+生成一支 15 秒、9:16 竖屏海外真人吸血鬼爱情短剧预告片段。男女主外形参考图1，场景参考图2。保持男女主身份一致，…
+
+#### 提示詞
+
+```text
+生成一支 15 秒、9:16 竖屏海外真人吸血鬼爱情短剧预告片段。男女主外形参考图1，场景参考图2。保持男女主身份一致，真人质感，高级短剧质感。整体故事：小白花人类女主误入古堡禁区，意外唤醒沉睡的吸血鬼贵族男主。男主发现她身上带着某种与古老战争有关的气息，因此对她产生强烈的控制欲和危险兴趣。女主害怕他，却没有彻底屈服，反抗他的压迫。整体风格：海外 ReelShort / DramaBox 吸血鬼爱情短剧预告感。暗黑浪漫、危险吸引力、宿命感、强控制感、阴郁压迫、高光反转。画面高级、克制、紧凑，像爆款短剧的前 15 秒钩子。不要血腥，不要廉价恐怖，不要万圣节感，不要现代街头感。画幅：9:16 竖屏构图，适合 TikTok / ReelShort / DramaBox。人物以中近景、近景、特写为主，竖屏里要突出脸、眼神、压迫感和关系张力。
+```
+
+<a id="category-5"></a>
+
+### 产品与电商 (2)
+
+### No. 1: 产品与电商营销
+
+- **分類:** `产品与电商`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/VXtjbYsMGoGsCUxr4bqcbPdOnqb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/VXtjbYsMGoGsCUxr4bqcbPdOnqb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/LW2dbrJPSoMmrZxtM1Rcl60Pnsf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TYu7bgHN7owINZxXtDycFiK1nBb.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XILJbN1yQojKGJxAxC9cq1BmnLg.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+生成一支 竖屏 9:16 高级时尚眼镜广告片，整体参考所给视频的分镜节奏、剪辑速度、白棚质感和冷峻时尚氛围。画面是极简白…
+
+#### 提示詞
+
+```text
+生成一支 竖屏 9:16 高级时尚眼镜广告片，整体参考所给视频的分镜节奏、剪辑速度、白棚质感和冷峻时尚氛围。画面是极简白棚，无缝白色背景，强烈的高定广告感，干净、简约、帅气、先锋、国际一线时装大片质感。主视觉人物参考 图片1，两位全身女模特，一个黑人女模特，一个欧美女模特，保持她们的服装高级感、身体姿态、白棚光影、时装秀场气质和整体冷峻态度。两人都佩戴未来感高级眼镜，眼镜设计参考图3，强调包覆式弧面、锐利几何猫眼/护目镜混合轮廓、镜面反射、流线型镜腿、高级时尚配饰质感。两个人物的外貌细节参考图2。
+```
+
+### No. 2: 产品与电商营销
+
+- **分類:** `产品与电商`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/EXtib4lHCo7uCmxtFolcBJ2Dn0c.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/EXtib4lHCo7uCmxtFolcBJ2Dn0c.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/FFDMbvsR7oAc0yxjgzXc9TQan3b.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/WsGwbNDiOo5GM3xDMtmcYCIDnhb.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+高级办公室Herman Miller黑色人体工学椅360度展示。透气网背特写空气流动可视化。腰部支撑+人体工学曲线工程动…
+
+#### 提示詞
+
+```text
+高级办公室Herman Miller黑色人体工学椅360度展示。透气网背特写空气流动可视化。腰部支撑+人体工学曲线工程动画。多维度调节扶手/座椅高度演示。设计师/程序员/创意人员长时间办公场景,姿态舒展自如。久坐不累3D骨骼支撑示意图。空间美学室内陈列。结尾"灵感与舒适同时在线"字样浮现。高端简约、冷色调、专业未来感、慢节奏运镜。产品详情参考图1，产品图参考图2。
+```
+
+<a id="category-6"></a>
+
+### 数字体验与游戏 (5)
+
+### No. 1: 数字体验与游戏创意
+
+- **分類:** `数字体验与游戏`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/UedObkGVbofIHRxLMpdcmUSvnbe.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/UedObkGVbofIHRxLMpdcmUSvnbe.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VgsVbGygHoD87Jx2mC7cyNF0nEf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/OiVdb7uANoU3wuxHUJ4cZ3CCnNf.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+角色参考图1，UI风格参考图2。 [0 秒-2 秒] 高角度俯拍。角色坐在高饱和度的亮紫色地面上，参考为图1，抬头看向摄…
+
+#### 提示詞
+
+```text
+角色参考图1，UI风格参考图2。 [0 秒-2 秒] 高角度俯拍。角色坐在高饱和度的亮紫色地面上，参考为图1，抬头看向摄像机。右侧显示游戏菜单 UI：开始新游戏 (START NEW GAME)、继续游戏 (CONTINUE, 高亮显示)、设置 (SETTINGS)、退出游戏 (EXIT GAME)。左上角显示玩家资料 MINIMAX。光标点击“继续游戏”。 [2 秒-4 秒] 平滑变焦至她的右臂。UI 面板从右侧滑入，“右臂装备 (RIGHT ARM EQUIPMENT)” 面板出现。选中高亮显示 “幻影之握 (PHANTOM GRIP)”，随后滑动至 “时空之爪 (CHRONOS CLAW)”。她的右手机械地重新配置，手指分开，新的爪状指节锁定到位，青色 LED 灯闪烁得更亮。 [4 秒-7 秒] 摄像机平滑地绕到她的左侧。新的 UI 滑入 “武器定制 (ARMAMENT CUSTOMIZATION)” 网格，显示手部、前臂、肘部、上臂组件。选区快速循环切换部件。她的左臂逐段拆解：前臂板脱落，新装甲滑入，肘关节更换，手部重新配置，更换过程中可见暴露的线路和活塞。 [7 秒-8.5 秒] 摄像机拉回至中景。确认配置 (CONFIRM CONFIG) 按钮闪烁。点击。所有 UI 面板向内收缩消失。角色双腿解开，调整姿势，现在放松地坐着，单膝立起，义肢手自然抬起并完成配置后的轻微动作展示。 [8.5 秒-10 秒] 底部出现加载 (LOADING) 条。从 0% 快速填充至 100%。高饱和度的亮紫色环境开始变暗，阴影从边缘蔓延，温暖的金色光芒渗入。 [10 秒-15 秒] 当她起身时，完整的环境在她周围加载。密集的赛博朋克贫民窟显现，霓虹灯闪烁，潮湿的街道反射着光芒，人群涌动，摩托车穿梭，错综复杂的电线，堆叠的建筑向远处的未来派摩天大楼延伸。摄像机稳定在第三人称视角，位于她身后，展示她的背部。HUD 元素淡入，右上角显示小地图，左下角显示生命值和弹药计数器。任务标记出现。她迈步走进街道。
+```
+
+### No. 2: 数字体验与游戏创意
+
+- **分類:** `数字体验与游戏`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Ri9cbB4RSoBcSExMkrCcDuKbnqd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Ri9cbB4RSoBcSExMkrCcDuKbnqd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/YyUCbPB5mo7EO5xwubJcBB9Lntf.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+一个网站页面，网站页面UI设计，网站动效，视频展示了流畅的网页向下滚动效果。一个极具爆发力与动感的产品官网风格产品落地页…
+
+#### 提示詞
+
+```text
+一个网站页面，网站页面UI设计，网站动效，视频展示了流畅的网页向下滚动效果。一个极具爆发力与动感的产品官网风格产品落地页 UI/UX 演示视频，核心展示主体是该产品图片1。页面采用粗犷有力、倾斜的超大号无衬线字体进行张扬的排版。背景有极具速度感的动态光影、暗色碳纤维或运动透气网眼纹理在交织变换。视频展示了节奏紧凑、充满力量感的网页向下滚动效果，以及鼠标悬停时强烈的视觉放大与颜色反转等 UI 交互动作。
+```
+
+### No. 3: 数字体验与游戏创意
+
+- **分類:** `数字体验与游戏`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/DubDbB9rronz5SxqzFJcTTKonye.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/DubDbB9rronz5SxqzFJcTTKonye.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Ctipb3xgNoAJI6x1Sndcdb9knah.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+模拟网站UI设计，先是上面的标题向下滑动出现，然后是下面的文字栏向上划出，汽车灯由暗变红…
+
+#### 提示詞
+
+```text
+模拟网站UI设计，先是上面的标题向下滑动出现，然后是下面的文字栏向上划出，汽车灯由暗变红
+```
+
+### No. 4: 数字体验与游戏创意
+
+- **分類:** `数字体验与游戏`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/XZIwbDc96oKOWnx04TlcBLP0nXf.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/XZIwbDc96oKOWnx04TlcBLP0nXf.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/VRaPb9ETYoQeKKxia03c3moOnae.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/DZmTb7d9VoxZ7uxjIUccYxWpn1f.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/RpWpb4QN2o2WO3xiFG7coxmdnRc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/EUebblFb1oY6g5x0baUci58nnVP.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+生成一段10秒、4:3 横向构图的游戏视频，整体像一个极简可爱的 2D 手绘反应游戏界面。画面保持固定镜头，不要运镜，不…
+
+#### 提示詞
+
+```text
+生成一段10秒、4:3 横向构图的游戏视频，整体像一个极简可爱的 2D 手绘反应游戏界面。画面保持固定镜头，不要运镜，不要缩放，背景干净，保留温暖纸张质感和蜡笔 / 彩铅手绘线条。主角始终是同一只皮皮的小比格犬：圆润 Q 版身体、短腿、大耷拉耳、圆润长吻部、短翘尾巴、半眯慵懒又欠揍的表情。小比格身体可以像橡皮筋一样被夸张拉伸、压扁、拱起和侧闪，但身份和画风始终一致。
+视频是一个“按方向键躲手掌”的快节奏小游戏操作流程。画面底部始终有一排手绘方向箭头 UI，箭头包含上、下、左、右四种方向。每个操作节拍开始时，对应方向箭头迅速变成实心高亮，并出现手绘圆圈涟漪、短促放射线、小星星或爪印反馈。顶部保留轻量手绘 HUD：左上角三个小爱心，顶部中间一条细细的手绘进度条，右上角一个小骨头图标和少量涂鸦装饰。装饰要稀疏可爱，不要遮挡主角、手掌或方向箭头。不要出现任何可读文字，不要现代电子 UI，不要真实摄影效果。
+核心玩法规则：
+图1，当底部“上”箭头高亮时，手掌从画面下方向上伸出，小比格必须向上拱起身体躲开，身体形成夸张半圆桥。
+图2，当底部“下”箭头高亮时，手掌从画面上方向下压来，小比格必须压低身体贴地躲开，前半身扁平，后半身翘起。
+图3，当底部“右”箭头高亮时，手掌从画面右侧水平伸入，小比格必须向左拉长身体躲开，耳朵甩飞，前爪抓地。
+图4，当底部“左”箭头高亮时，手掌从画面左侧水平伸入，小比格必须向右滑行躲开，身体像弹簧一样压缩侧闪。
+所有手掌方向、箭头高亮方向、小比格躲闪动作必须一一对应，不能错位。
+```
+
+### No. 5: 数字体验与游戏创意
+
+- **分類:** `数字体验与游戏`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Ab5KbftOqotKvExixVhcXZyYn6e.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Ab5KbftOqotKvExixVhcXZyYn6e.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JuGlbYKeloRp8sxDsBGchW0dn0j.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/GY71bUulEoyyGIxAmVUcCCRDnZE.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/YxIdbhEqIoOz13xcj9ycmkWsnJb.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/BVxebgJSvosjn7xR5OXc71FDnrf.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/AzbwbX3j8ouwkQx4sbVcc3S9nRe.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+使用 Image 1 作为精确的 UI / 布局 / 界面风格参考。
+Image 1 中的鼠标光标也作为精确的鼠标样式参…
+
+#### 提示詞
+
+```text
+使用 Image 1 作为精确的 UI / 布局 / 界面风格参考。
+Image 1 中的鼠标光标也作为精确的鼠标样式参考：鼠标光标必须保持 Image 1 里的大小、形状、比例、半透明质感、柔和发光边缘和精致高级感。不要生成过大的系统默认鼠标，不要生成粗糙黑白箭头，不要生成多个鼠标。
+使用 Images 2–5 作为精确的灵宠参考，并按以下方式映射：
+Image 2 = card A = MIRRA POD
+Image 3 = card E = LANTERN
+Image 4 = card F = MOSS MITE
+Image 5 = card C = VELI KIT
+生成一个 15 秒、16:9 横版视频。
+镜头完全固定，不要推拉、摇移或切镜头。
+保持 Image 1 的界面结构、排版、面板、字体层级、图标、圆角、卡片网格和整体构图稳定、优雅、清晰可读。
+界面气质是高级、极简、梦幻的数字灵宠图鉴。
+不要新增无关文字，不要乱码，不要 UI 扭曲，不要界面漂移。
+整体风格：
+梦雾、柔焦、微绒、半透明、轻发光、高级极简。
+四只灵宠都要非常可爱、灵动、软萌、有灵气。
+动作要干净、精致、有互动感。
+界面本身保持稳定，只动画化鼠标、选中态、主标题、当前主展示灵宠和少量技能特效。
+```
+
+<a id="category-7"></a>
+
+### 工业与具身智能 (2)
+
+### No. 1: 硬件、实体工业、具身智能演示
+
+- **分類:** `工业与具身智能`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/KkcybsUNgo7SsBxcuuBcDSprnsf.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/KkcybsUNgo7SsBxcuuBcDSprnsf.mp4" controls muted playsinline width="720"></video>
+
+#### 描述
+
+固定镜头，机器臂下降，抓起红色方块，向前移动一段距离后放下…
+
+#### 提示詞
+
+```text
+固定镜头，机器臂下降，抓起红色方块，向前移动一段距离后放下
+```
+
+### No. 2: 硬件、实体工业、具身智能演示
+
+- **分類:** `工业与具身智能`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/JaAEbAJIloGcs4xa5Xjcwg1Jn7c.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JaAEbAJIloGcs4xa5Xjcwg1Jn7c.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/BxTkb2fEWoaUasxm8qcclR7dnye.mp4" controls muted width="360"></video>
+
+#### 描述
+
+改背景的提示词：将原视频中的桌面替换为标准办公室工位办公桌，背景整体替换为带有百叶窗与金属文件柜的办公环境。新办公桌的透…
+
+#### 提示詞
+
+```text
+改背景的提示词：将原视频中的桌面替换为标准办公室工位办公桌，背景整体替换为带有百叶窗与金属文件柜的办公环境。新办公桌的透视比例需与原镜头完全匹配，桌面材质需自然承接原视频的光影投射，边缘阴影与高光方向必须与原场景光源严格一致。背景百叶窗与文件柜的景深虚化程度需与原视频焦点对齐，保持原有空间纵深感。在此过程中，原视频的镜头运动轨迹、机械臂的完整运动时序与速度、画面中其他物品的相对位置与空间遮挡关系、以及整体光照氛围必须保持 100% 不变，确保替换元素与原画面无缝融合。
+```
+
+<a id="category-8"></a>
+
+### 动画与风格化 (6)
+
+### No. 1: 动画与风格化影像
+
+- **分類:** `动画与风格化`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/ChE5bUd3Ront1UxW47vcBT9ensc.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ChE5bUd3Ront1UxW47vcBT9ensc.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/QBnsbsRWAoawe9xCXSmcUpn4n8f.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+黏土动画风格。 狂奔的狐狸冲到了悬崖边缘，毫不犹豫地腾空而起，在巨大的熔岩峡谷上方完成了一个极具张力的、慢动作的英雄式飞…
+
+#### 提示詞
+
+```text
+黏土动画风格。 狂奔的狐狸冲到了悬崖边缘，毫不犹豫地腾空而起，在巨大的熔岩峡谷上方完成了一个极具张力的、慢动作的英雄式飞跃。镜头在半空中从狐狸的腹部下方极速掠过（大动态运镜），完美展现出深渊的恐怖深度，以及狐狸黏土身体在空中极致舒展的动态瞬间。
+```
+
+### No. 2: 动画与风格化影像
+
+- **分類:** `动画与风格化`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/GmMNbhZ23oTJwPxeqcpcxJP7nxb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/GmMNbhZ23oTJwPxeqcpcxJP7nxb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/PCO0bBpPboFhejxGWKEc6EO5n9b.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/TM3ybDJFdoM2BVxbMq5cNNMhneh.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+使用 图2作为固定人物参考，保持黑色半扎长发、银色镂空发冠、黛蓝发带、浅色层叠汉服、半透明蓝色外袍、深蓝腰封、银色花形扣…
+
+#### 提示詞
+
+```text
+使用 图2作为固定人物参考，保持黑色半扎长发、银色镂空发冠、黛蓝发带、浅色层叠汉服、半透明蓝色外袍、深蓝腰封、银色花形扣饰和长流苏一致。使用 图1作为镜头分镜、节奏参考。画面为高质量 4K 16:9 国风 3D，电影级仙侠质感，热血、庄严、宿命感强。镜头依次表现分镜中的内容，确保每个分镜之间运镜、切换自然，不能像ppt一样。人物露脸只能是近景或特写，远景只能是背影、侧背或环境空镜，不要正脸远景。
+```
+
+### No. 3: 动画与风格化影像
+
+- **分類:** `动画与风格化`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/G5M6blsa7od0dCxaEkVcm2lfnLb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/G5M6blsa7od0dCxaEkVcm2lfnLb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/NBfvbOiQvomKoTx8xcxcmJgcnpe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/FJZ4bHklPoW5OBxfsuWcKklBnJf.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+生成一支 乙游男主角色 PV。 角色参考图： 使用图2作为严格的角色身份参考。请保持同一个角色脸、发型、体型比例、服装设…
+
+#### 提示詞
+
+```text
+生成一支 乙游男主角色 PV。 角色参考图： 使用图2作为严格的角色身份参考。请保持同一个角色脸、发型、体型比例、服装设计、材质细节和乙游 CG 质感一致。
+```
+
+### No. 4: 动画与风格化影像
+
+- **分類:** `动画与风格化`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/S92lbUnUtol4VKxnJnIcXHcAnvg.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/S92lbUnUtol4VKxnJnIcXHcAnvg.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JXsgb07mZoOqdtxMnUhci46EnOh.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+镜头：第一人称视角 · 眼平高度 · 手持游戏镜头 画面： 画面模拟玩家正在操作一款现代战争 FPS 游戏，双手持突击步…
+
+#### 提示詞
+
+```text
+镜头：第一人称视角 · 眼平高度 · 手持游戏镜头 画面： 画面模拟玩家正在操作一款现代战争 FPS 游戏，双手持突击步枪在军事基地外围缓慢推进。 玩家沿着掩体旁的道路向前移动，准星扫过前方通道，短暂停顿后向远处目标点开火几发，随后继续向前压进，像普通玩家实机操作画面。 光线： 现代军事基地的冷色自然光与烟雾火光交织，画面写实清晰，金属枪械和战场尘雾有 3A 游戏质感。 运镜： 镜头随玩家移动产生轻微手持晃动，先缓慢前进，再小幅左右观察，开火时有轻微后坐力抖动，最后继续稳定向前推进。
+```
+
+### No. 5: 动画与风格化影像
+
+- **分類:** `动画与风格化`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/ZqlFbCd8roUE2UxVLH1cCzBjnbd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ZqlFbCd8roUE2UxVLH1cCzBjnbd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Y9Z0bMDnqoAXbfxAPE6csZbFnJc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/P3uRbf7VmoZDdRxZKNfcxqBFnVe.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+使用第一张图作为首帧，第二张图作为严格尾帧，生成一段乙游视觉小说界面转场视频。  整体感觉：高端中文乙游恋爱互动界面，演…
+
+#### 提示詞
+
+```text
+使用第一张图作为首帧，第二张图作为严格尾帧，生成一段乙游视觉小说界面转场视频。  整体感觉：高端中文乙游恋爱互动界面，演出前后台的暧昧瞬间，从“选择来看他的演出”自然过渡到“韩序被女主的话吸引，露出饶有兴趣的反应”。UI 文字、选项、对话框都以乙游式精致方式出现，转场丝滑，情绪暧昧但克制。
+```
+
+### No. 6: 动画与风格化影像
+
+- **分類:** `动画与风格化`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Kl9db5py1o18dlx4HVGc87eznzf.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Kl9db5py1o18dlx4HVGc87eznzf.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/B1rEb5HEsogCkCxfjHjcQCcHnQd.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/DTPfbsYnnof1WqxCTZScNcv2ngf.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+主角是图1，电影级、写实画风，实拍现实画风。 正面近景拍摄视角，画面只聚焦于男主与女主的上半身。女主面部视频中基本不露出…
+
+#### 提示詞
+
+```text
+主角是图1，电影级、写实画风，实拍现实画风。 正面近景拍摄视角，画面只聚焦于男主与女主的上半身。女主面部视频中基本不露出，她身穿露腰露背的红色连衣裙，只偶尔出现肩颈、手臂、腰线、裙摆和手部细节；男主身穿剪裁极佳的黑色高级定制衬衣。场景是在图2暧昧氛围的红黑色调室内，整体光线昏暗、低饱和、奢华、克制，后景微微虚化，红丝绒沙发、黑金大理石边几、暖色低光源共同营造成熟暧昧的约会氛围。 画面发生在图2的红丝绒沙发前。男主坐在红丝绒沙发上，姿态慵懒而从容，身体微微后靠，衣料质感高级、细腻。沙发旁是一张奢华的黑金大理石边几，上面放着一个精美的水晶玻璃杯，杯内盛着琥珀色威士忌和几块正在慢慢融化的冰块，杯身隐约可见细腻水珠。画面中能听到冰块轻轻碰撞玻璃杯的声音、雪茄燃烧的细微声、室内轻微空气流动声、衣料摩擦声与克制的呼吸声。
+```
+
+<a id="category-9"></a>
+
+### 多素材联合参考 (3)
+
+### No. 1: 多素材联合参考
+
+- **分類:** `多素材联合参考`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/JSqnbYf9poACH4xeWE7c2h53ngd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/JSqnbYf9poACH4xeWE7c2h53ngd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/GuKwbITHnoS7B0xBLOjcgFAQn6d.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/ACWPbQZsgou7ZHxfVSQcxoRDn8b.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/JDWhbhH6aoZZHCxtLVFcgYwRnZg.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/E7RvbW1P8oqEdCxSii8cYOLOnuc.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Rz6vbdZTKol7o4xTNp0cpgIjnNh.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Kjd2bDzkMol0bfxeKE4cLvhnnWh.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/FfkEbFFkBoL017xgCTGcjblXnbg.mp4" controls muted width="360"></video>
+
+#### 描述
+
+图1图2图3图4图5图6，严格参考示例视频视频1的镜头节奏、转场风格及音乐…
+
+#### 提示詞
+
+```text
+图1图2图3图4图5图6，严格参考示例视频视频1的镜头节奏、转场风格及音乐
+```
+
+### No. 2: 多素材联合参考
+
+- **分類:** `多素材联合参考`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/PUbtbpUthoyV0wxNQUVc01Finxc.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/PUbtbpUthoyV0wxNQUVc01Finxc.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/KhTkb3fbxoLPB5xXgmycoUw9nBd.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/UroZbeN6LopoUMx1sk9cSgF5nxh.mp4" controls muted width="360"></video>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/B3f7bzHfqoPnCJxl8jLcCO6Pnch.mp4" controls muted width="360"></video>
+
+#### 描述
+
+保持视频1中的建筑、行人和整体环境为真实世界风格不变。仅将视频1画面中的树木、轿车转化为 3D 像素或体素积木风格 (M…
+
+#### 提示詞
+
+```text
+保持视频1中的建筑、行人和整体环境为真实世界风格不变。仅将视频1画面中的树木、轿车转化为 3D 像素或体素积木风格 (Minecraft style)，风格参考图1。像素化物体的运动轨迹需正常，且保留真实环境的阴影和透射光。整体效果参考视频2
+```
+
+### No. 3: 多素材联合参考
+
+- **分類:** `多素材联合参考`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/ZV99bScQ8oLiOBxqetJcNYtfntc.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ZV99bScQ8oLiOBxqetJcNYtfntc.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/NKZFbIxuTosdvfxgQTAc7rwrnFh.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/ICQBbJmYBoCWo0xNCrUcxshonjc.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+@图片1 镜头先快速推进到咖啡表面的奶泡、可可粉颗粒和深色咖啡液体纹理细节，让咖啡表面的颗粒、泡沫和液体涟漪逐渐覆盖全屏…
+
+#### 提示詞
+
+```text
+@图片1 镜头先快速推进到咖啡表面的奶泡、可可粉颗粒和深色咖啡液体纹理细节，让咖啡表面的颗粒、泡沫和液体涟漪逐渐覆盖全屏，遮挡住其他东西。镜头保持真实微距质感，极浅景深，细小粉末在逆光中缓慢飘落，表面纹理像细沙与流体之间的过渡。避免画面开裂，在咖啡粉颗粒、奶泡起伏、液体旋涡与@图片2 中沙丘沙脊、风蚀纹理、扬沙颗粒高度相似的瞬间，自然无痕转化为沙漠地貌，然后镜头继续向前推进，展示出@图片2 的沙丘全貌。严格避免画面开裂，不要黑屏，不要硬切，不要明显特效，不要拼接感，整体真实、安静、克制，像同一种颗粒材质从咖啡微观表面自然变成宏观沙漠世界。一镜到底，中间不要出现拼接。
+```
+
+<a id="category-10"></a>
+
+### 角色动作镜头参考 (3)
+
+### No. 1: 角色、动作与镜头参考
+
+- **分類:** `角色动作镜头参考`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Zh4Nbsou8oWuiExSLCFcenfzn8g.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Zh4Nbsou8oWuiExSLCFcenfzn8g.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Km7FbJNLOofRfPxgspZcW5IpnHh.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/QxXFbJZ4yok3nqxwVmUcmvE0nTc.mp4" controls muted width="360"></video>
+
+#### 描述
+
+图1的人物动作、表情与表演节奏严格参考输入视频1
+男生站在画面中右侧的水槽前把洗好的盘子递给画面左侧的女生，随后转身突然…
+
+#### 提示詞
+
+```text
+图1的人物动作、表情与表演节奏严格参考输入视频1
+男生站在画面中右侧的水槽前把洗好的盘子递给画面左侧的女生，随后转身突然用右手向画面左侧边缘的女生甩出洗洁精泡沫。女生受到惊吓后立刻反击，两人开始开心地互相向对方泼洒泡沫并闪躲，伴随着大笑
+```
+
+### No. 2: 角色、动作与镜头参考
+
+- **分類:** `角色动作镜头参考`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/NFkJb6XPiovpxaxcqOPcdVxbn2g.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/NFkJb6XPiovpxaxcqOPcdVxbn2g.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/TfzIbUAmZoUx5lxjeyicE4C2nzd.mp4" controls muted width="360"></video>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/IjJpb8ma1oU4Yex3MaVcnnp9n4f.mp4" controls muted width="360"></video>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/GLazbFkwzo2EfExbVq4czzi1nxd.mp4" controls muted width="360"></video>
+
+#### 描述
+
+https://arena-test.xaminim.com/?case_id=2337…
+
+#### 提示詞
+
+```text
+https://arena-test.xaminim.com/?case_id=2337
+```
+
+### No. 3: 角色、动作与镜头参考
+
+- **分類:** `角色动作镜头参考`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/FarSbNTLgoFsSDxZnpVcMHuGnwf.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/FarSbNTLgoFsSDxZnpVcMHuGnwf.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/S28tbCT77ovlPox1FLwcftBynsd.mp4" controls muted width="360"></video>
+
+#### 描述
+
+参考视频1进行动作模仿。固定机位全景镜头，正视频中三个穿西装的男人替换为三只高度写实的水豚。水豚必须严格遵循原视频的运动…
+
+#### 提示詞
+
+```text
+参考视频1进行动作模仿。固定机位全景镜头，正视频中三个穿西装的男人替换为三只高度写实的水豚。水豚必须严格遵循原视频的运动轨迹：依次迅速趴到地板上，然后最左边的水豚跳到中间位置，中间位置的水豚翻滚到最左边，接着中间的水豚翻滚到最右边，最右边的水豚跳跃到中间，最后中间水豚跳跃到另外两只背上，堆叠成金字塔形状。保持原有的固定机位不变。确保水豚的毛发质感和光影与环境融合
+```
+
+<a id="category-11"></a>
+
+### 音色克隆 (1)
+
+### No. 1: 音色克隆与迁移
+
+- **分類:** `音色克隆`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/L3YwbE2BJoI9vNxdyMEcOlUSnud.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/L3YwbE2BJoI9vNxdyMEcOlUSnud.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ZS2pbPfcZormcVxeM5kcqt8CnKh.mp4" controls muted width="360"></video>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/KxgCbWJCcoNSaAxAsRocBtpbnVg.mp4" controls muted width="360"></video>
+
+#### 描述
+
+角色说话：Follow the wind, live free.Leave worries behind, enjoy …
+
+#### 提示詞
+
+```text
+角色说话：Follow the wind, live free.Leave worries behind, enjoy the moment，音色参考音频1
+```
+
+<a id="category-12"></a>
+
+### 角色与物体编辑 (2)
+
+### No. 1: 角色与物体编辑
+
+- **分類:** `角色与物体编辑`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/WuD4bcBFxoAudLx7XYpcAcyundd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/WuD4bcBFxoAudLx7XYpcAcyundd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/E4HGbQANnobnbHx1YbVcerRCnvg.mp4" controls muted width="360"></video>
+
+#### 描述
+
+画面左边增加一个穿着相同团队制服的人，动作与旁人保持一致…
+
+#### 提示詞
+
+```text
+画面左边增加一个穿着相同团队制服的人，动作与旁人保持一致
+```
+
+### No. 2: 角色与物体编辑
+
+- **分類:** `角色与物体编辑`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/J5yebHYAooUAMSxFSFHcLuLinQe.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/J5yebHYAooUAMSxFSFHcLuLinQe.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/E8EKbWkNVo68KcxE7iXc5vxxnEe.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/D2E9bgzJHoHwyaxxcV3couLhndA.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/QdbEbh5VBo3FSuxPCejcCHo2nPe.mp4" controls muted width="360"></video>
+
+#### 描述
+
+视频1中最后面的小孩换成 图1中的金毛狗， 视频1中最左边小孩穿的卡其色外套改成图2中的牛仔外套…
+
+#### 提示詞
+
+```text
+视频1中最后面的小孩换成 图1中的金毛狗， 视频1中最左边小孩穿的卡其色外套改成图2中的牛仔外套
+```
+
+<a id="category-13"></a>
+
+### 场景与效果编辑 (1)
+
+### No. 1: 场景与视觉效果编辑
+
+- **分類:** `场景与效果编辑`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/O1Ezb2h6To3CVixATRUcN9fNnlb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/O1Ezb2h6To3CVixATRUcN9fNnlb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/ICRkbhmHMo8SZQxPH3ccDm1Dnm9.mp4" controls muted width="360"></video>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/HHLNb3oCUoVLRsxIwsBcs2WvnLg.mp4" controls muted width="360"></video>
+
+#### 描述
+
+将视频1绿幕背景去除，变成类似视频2的童话感背景，背景元素需要完全匹配视频1的人物动作。修改视频1的人物光线，使之完全匹…
+
+#### 提示詞
+
+```text
+将视频1绿幕背景去除，变成类似视频2的童话感背景，背景元素需要完全匹配视频1的人物动作。修改视频1的人物光线，使之完全匹配背景。
+```
+
+<a id="category-14"></a>
+
+### 声音台词编辑 (1)
+
+### No. 1: 声音、台词与音色修改
+
+- **分類:** `声音台词编辑`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/Sz2wb6V9koNUaXx4E5NcEVaKnFd.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Sz2wb6V9koNUaXx4E5NcEVaKnFd.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/Fcq1b8sAsolV4TxbHuTc4uZQnee.mp4" controls muted width="360"></video>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/SuQEbal96ou5cIxmqLqccRpwnec.mp4" controls muted width="360"></video>
+
+#### 描述
+
+将视频1女生说的话：“我们之间不可能在一起的，不是不爱，是我们真的走不到最后的”。改成音频1的台词：“别走了，好吗？这一…
+
+#### 提示詞
+
+```text
+将视频1女生说的话：“我们之间不可能在一起的，不是不爱，是我们真的走不到最后的”。改成音频1的台词：“别走了，好吗？这一次，我们不要放开彼此”，并略微调整对应的表演
+```
+
+<a id="category-15"></a>
+
+### 精准指令遵循 (4)
+
+### No. 1: 高精度的指令遵循
+
+- **分類:** `精准指令遵循`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/UU6RbACAXobgtlxe8bWc8MzvnTh.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/UU6RbACAXobgtlxe8bWc8MzvnTh.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/NBPQbC8RlojS7ZxWKtjcbPUcnBc.mp4" controls muted width="360"></video>
+
+#### 描述
+
+将参考视频中的报纸替换为一本绿色封皮的书；人物所坐的椅子改为红色沙发；去掉人物佩戴的墨镜，保留清晰面部；移除汽车燃烧效果…
+
+#### 提示詞
+
+```text
+将参考视频中的报纸替换为一本绿色封皮的书；人物所坐的椅子改为红色沙发；去掉人物佩戴的墨镜，保留清晰面部；移除汽车燃烧效果，使车辆保持正常状态；人物从怀里拿出的照片改为一个黑色小本子；同时在画面左侧增加一棵树
+```
+
+### No. 2: 高精度的指令遵循
+
+- **分類:** `精准指令遵循`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/HeNFbhs52oDma8xCOKOcfu1Uncb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/HeNFbhs52oDma8xCOKOcfu1Uncb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/RG2xbvyGAonwKfxOYWxcMIWXnFy.mp4" controls muted width="360"></video>
+
+#### 描述
+
+参考视频，将视频开头出现的易拉罐饮料替换为可口可乐；背景中原本发光的“全家”便利店招牌修改为“互惠”招牌；视频结尾塑料袋…
+
+#### 提示詞
+
+```text
+参考视频，将视频开头出现的易拉罐饮料替换为可口可乐；背景中原本发光的“全家”便利店招牌修改为“互惠”招牌；视频结尾塑料袋中的所有零食也统一替换为可口可乐易拉罐，最后结尾人物的台词从“买了一些小零食”变成了“买了一堆可乐”
+```
+
+### No. 3: 高精度的指令遵循
+
+- **分類:** `精准指令遵循`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/HWlQbnT1co3NJmxS640c7OmenTb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/HWlQbnT1co3NJmxS640c7OmenTb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Q6Ynbal7WoLpQ7xtg3qcbP50n7g.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+
+#### 描述
+
+两位魔术师站在舞台上面向观众表演"互换"魔术： 两人同时挥动魔杖，一阵烟雾升起。烟雾散去后，两人的西装颜色互换——左边的…
+
+#### 提示詞
+
+```text
+两位魔术师站在舞台上面向观众表演"互换"魔术： 两人同时挥动魔杖，一阵烟雾升起。烟雾散去后，两人的西装颜色互换——左边的人穿白色西装，右边的人现在穿黑色西装，但两人手套颜色不变。 两人鞠躬致谢，身后的红色幕布拉上，从深红色渐变为深蓝色
+```
+
+### No. 4: 高精度的指令遵循
+
+- **分類:** `精准指令遵循`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/WowcbuLVpoV59PxIK5BcHMfHnOc.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/WowcbuLVpoV59PxIK5BcHMfHnOc.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Dmlgb1bD5oZGBZxXOSic6AzNnbd.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/OieXbprHfomxuAxpGn2cHss5nze.mp4" controls muted width="360"></video>
+
+#### 描述
+
+在视频1中两个人周围加上图片1 这种橙黄色的手绘涂鸦，随着视频1中两人靠近，手绘涂鸦越来越多，从小的火花变成很明亮的光芒…
+
+#### 提示詞
+
+```text
+在视频1中两个人周围加上图片1 这种橙黄色的手绘涂鸦，随着视频1中两人靠近，手绘涂鸦越来越多，从小的火花变成很明亮的光芒，在视频1中两个人亲吻时，手绘涂鸦出现粉红色的笔触
+```
+
+<a id="category-16"></a>
+
+### 特定风格 (2)
+
+### No. 1: 特定风格 · 提示词示意
+
+- **分類:** `特定风格`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/C2g0bppfBoCuTMxGjaTcGJK6nLb.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/C2g0bppfBoCuTMxGjaTcGJK6nLb.mp4" controls muted playsinline width="720"></video>
+
+- **Inputs:**
+
+<p>
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/XkrrbOtrjoG5WKx8ICOcKKPbn8b.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/Y2xabxgupo0J6QxtrtUcceMRnie.jpg" width="180" referrerpolicy="no-referrer">
+  <img src="https://static.atlascloud.ai/model/example/minimax-h3/CZUpbZfKWooxLRx2KTUcDCKNn3e.jpg" width="180" referrerpolicy="no-referrer">
+</p>
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/QQYhbofx2odQ1LxR7EQcL8Sznqd.mp4" controls muted width="360"></video>
+
+#### 描述
+
+【参考素材说明】@图片3：场景视觉风格（街道/夜间/地下空间、压迫感构图、环境层次、影像颗粒）@图片2：文字包装样式（字…
+
+#### 提示詞
+
+```text
+【参考素材说明】@图片3：场景视觉风格（街道/夜间/地下空间、压迫感构图、环境层次、影像颗粒）@图片2：文字包装样式（字体质感、图形设计、动态图形排版冲击力）@图片1：人物形象（脸、发型、服装轮廓、比例、气质、整体氛围）只参考指定维度，不直接复制参考图，不出现真实品牌、原参考图 logo/标题/可识别文字。
+【核心创意】10秒，16:9 横版 trap MV。两位 fly detective 兄弟搭挡在多个近景地下空间轮流对镜头 rap，全程跟随 trap 鼓点律动、卡点硬切，高反差印刷海报质感的英文块字随 bass hit 压屏出现。地下音乐录像带 + 时尚杂志拼贴 + 高时装质感，兄弟搭档式冷峻 performance。
+【画面过程描述】Shot 1 — 面部极近特写 / 通道压迫感- 场景：狭窄通道或地下入口近景，参考 @图片3- 景别：面部极近特写（脸/眼神/肩颈/衣领局部）- 人物：Detective A 直视镜头开始 rap，眼神冷静锐利- 文字："TWO FLY" 巨大粗体英文压入画面上下，不遮挡眼睛- 律动：808 bass 砸下，"TWO FLY" 瞬间纵向压缩后回弹；hi-hat roll 时字母边缘高速细碎震动；"fly" 重音处扫描错位- 硬切Shot 2 — 中近景半身 / 墙面文字背景- 场景：另一处墙面/海报墙近景（和 Shot 1 空间明显不同）- 景别：明显拉到中近景半身- 人物：Detective B 对镜头 rap，肩膀和头部跟 hi-hat 点拍，身体轻微前倾- 文字："CLUES" 巨大压缩英文在人物身后，被头发/肩膀/服装轮廓自然遮挡- 律动：文字纵向拉伸如海报立起；每个 snare 时文字突然放大、抖动、扫描错位- 硬切Shot 3 — 手部特写 / 遮挡切换- 场景：金属门边/栏杆/车库墙面/低矮天花局部- 景别：手部近景（手/戒指/袖口/衣服材质为主体）- 人物：Detective A 手势向镜头推进（递线索），脸在后方虚化或局部- 文字：竖排 "BROTHERS" 在前景一侧，被手部短暂遮挡- 律动："move as one" 时文字被拉成一条长竖条，跟 bass hit 硬切重组- 硬切Shot 4 — 肩颈特写到面部特写 / 楼梯转角- 场景：楼梯转角/门口阴影/低矮通道- 景别：肩颈和衣领材质特写 → snare 时突然短促推近到面部特写- 人物：Detective B 侧头靠近镜头继续 rap- 文字："AS ONE" 像杂志标题被声音冲出来，在鼓点上突然放大- 律动：推近时文字位置硬切重排，始终不遮挡眼睛- 硬切Shot 5 — 半身近景残影 / 车库或混凝土背景- 场景：车库感空间或混凝土背景- 景别：Detective A 半身近景- 人物：主图层嘴型清楚同步，副图层动感残影（复印机错位/帧延迟，脸不变形），手势横向划过镜头- 文字：竖排 "CUT GOLD" 在背景跳帧闪现- 律动："CUT" 瞬间横向切开画面触发闪白硬切；"GOLD" 压缩成粗重块字后突然回弹- 硬切Shot 6 — 双人近景分屏 / 色块分割- 场景：地下入口/墙面/栏杆/门框（和 Shot 5 空间明显不同）- 景别：色块切成两/三区，两个 detective 面部特写和半身局部快速硬切交替- 人物：两 detective 在左右轮流表演- 文字：中央出现 "CASE COMPLETE" 粗体短词- 律动：随 808 bass hit 硬切重组，字母先压扁再瞬间拉伸；hi-hat roll 时文字碎片快速跳动；最后重音上出现扫描错位和纸张撕裂感震动- 硬切Final — 多场景近景 performance montage- 场景：狭窄通道面部特写、墙面中近景、手部特写、楼梯转角肩颈特写、车库半身局部、门口阴影双人近景快速交替- 景别：禁止全身、禁止多人全景，只用近景/中近景/面部特写/手部特写/肩颈特写/半身镜头- 人物：两位 detective 轮流对镜头 rap，嘴型/下颌/呼吸/眉眼/手势都精准卡住 vocal、snare、hi-hat roll、bass hit- 文字：最终主文字 "CASE CLOSED" 巨大压入画面- 律动：每次 bass hit 触发场景硬切或景别硬切；每次 snare 触发文字压屏或图层错位；最后一拍所有场景碎片同步冻结，hard cut to black
+【整体要求补充】
+▍影像风格（贯穿全片）- 粗颗粒、轻微胶片抖动、复印纸颗粒、半色调网点、印刷毛边、扫描错位、跳帧残影、高速图层错位- 剪辑节奏极快，只用硬切、跳切、鼓点切、遮挡切、闪白硬切、文字压屏硬切- 不用淡入淡出、不用柔和转场
+▍文字包装（贯穿全片）- 文字是画面主体的一部分，有真实图层关系- 文字可出现在人物前景/中景/背景之间- 人物会遮挡文字，文字也可压过人物局部，但不能遮挡眼睛和主要面部表情- 文字跟随 vocal 重音、snare、hi-hat roll、808 bass hit 出现/震动/拉伸/压缩/错位/撕裂/硬切重组- 风格：粗重压缩无衬线、巨大英文块字、竖向拉伸、横向压缩、纵排英文、弧形标题、黑白红高反差、复印纸颗粒、半色调网点、印刷破损、扫描错位、zine 拼贴感- 文字数量克制：每镜头只 1 个主文字元素，最多少量编号；不要密集小字、不要 logo
+▍律动规则（贯穿全片）- hi-hat roll → 快速微震、跳帧、文字细碎重组- snare → 文字猛然放大、画面硬切、人物肩膀下压- 808 bass hit → 低频压屏、画面短暂变形、文字纵向拉伸或横向压缩- vocal 关键词 → 嘴型同步、下颌动作、头部点拍、手势推进- 人物动作、文字动效、场景切换、景别切换必须共同卡点
+▍场景切换（贯穿全片）- 多个近景场景快速硬切- 场景气质统一参考 @图片3，但每个镜头空间要明显不同：狭窄通道、墙面近景、门口阴影、金属/混凝土背景、灯光边缘、海报墙、楼梯转角、低矮天花、车库感空间、地下入口- 不做大远景，不做复杂大场面- 每次切换由 bass hit、snare、vocal 重音或文字压屏触发
+▍景别切换（贯穿全片）- 变化要非常明显：面部极近特写 → 中近景半身 → 手部特写 → 肩颈特写 → 双人近景分屏 → 面部特写 → 半身局部- 不连续使用同一种景别- 每个硬切都让镜头距离/人物朝向/背景空间/文字层级产生明显变化- 镜头可轻微手持、突然推近、短促横移、快速压缩变焦、近距离摇摆- 不变成柔和慢镜头
+▍人物规则（贯穿全片）- 角色：两位 fly detectives / brothers- 保持 @图片1 人物形象的脸、发型、服装轮廓、比例、气质、整体氛围- 真实哑光皮肤、干净高级、自然毛孔、轻微皮肤纹理- 不要油亮 AI 美颜脸- 兄弟搭档式轮流 rap，对镜头有强烈 performance
+▍人物表演（贯穿全片）- 声音冷酷、攻击性、松弛但有压迫感，节奏紧、断裂、强拍- 不是静态摆拍，是在表演- 清楚嘴型同步：唇形、下颌、表情、呼吸跟随 vocal- 卡点动作：头部点拍、肩膀下压、手势推进、身体前倾、侧头、转身靠近镜头、手指指向镜头
+▍重要限制（贯穿全片）- 不用全身镜头- 不用多人全景- 不用复杂群像大场面- 全片只用近景/中近景/面部特写/手部特写/肩颈特写/半身镜头- 只表现人物上半身、脸部、手势、衣服材质、表情、嘴型同步、文字包装- 不要求看到完整身体和脚- 不出现真实品牌、原参考图中的 logo、标题或可识别原文字
+```
+
+### No. 2: 特定风格 · 提示词示意
+
+- **分類:** `特定风格`
+- **來源:** `official`
+- **作者:** MiniMax
+- **語言:** `zh-TW`
+- **影片:** [查看](https://static.atlascloud.ai/model/example/minimax-h3/MiTub4mPgocHttxgdp0cVvbxnee.mp4)
+
+<video src="https://static.atlascloud.ai/model/example/minimax-h3/MiTub4mPgocHttxgdp0cVvbxnee.mp4" controls muted playsinline width="720"></video>
+
+#### 描述
+
+【参考素材说明】无参考素材（纯文字生成视频）。
+【核心创意】15 秒，16:9 横版视频。将实拍的傍晚老式电车车厢与手绘…
+
+#### 提示詞
+
+```text
+【参考素材说明】无参考素材（纯文字生成视频）。
+【核心创意】15 秒，16:9 横版视频。将实拍的傍晚老式电车车厢与手绘发光动画融合：空荡末班电车车厢里，乘客用手机单手临时拍摄，遇到手绘杏橙色发光线在车厢里连续变形（车票→纸燕子→毛毛虫→箭头→小帆船→迷你电车→蜗牛→雨伞→小鱼→整车晚霞云海），最后回到车票碎成纸屑。整体生活感、怀旧、温柔而略带哀愁。
+【画面过程描述】0〜3 秒- 正向：实拍镜头从拍摄者指尖在起雾车窗上随手画弧线开始。指尖离开，雾痕变成杏橙手绘发光线（蜡笔粉笔混合质感），先贴指尖→绕食指→落掌心卷成车票→被另一手按住→折成扁平纸燕子→沿右侧扶手环飞走。相机慢半拍追，先拍空掌和倒影，再匆忙右晃。- 反向：不要平稳广告式构图。3〜6 秒- 正向：纸燕子绕吊环飞一圈，尾巴勾住扶手环轻晃发出塑料碰撞声。拍摄者伸手想稳扶手环，纸燕子掠手背散成一串手绘逗号→首尾相连聚成发光毛毛虫→沿座椅靠背爬行（留杏橙粉末）→拍摄者弯腰看时拉直成涂鸦箭头→指完塌成小帆船沿座椅缝滑走。相机迟一步推进，运动模糊+短暂失焦。- 反向：不要新角色出现，所有形态必须首尾相连。6〜10 秒- 正向：小帆船滑地板、借电车晃动漂移、拖粉笔灰杏橙线→拍摄者伸脚挡+手捞→船从指鞋间溜过撞半卷车票→卷轴滚动→船被卷入又从另一侧钻出变成 2 节迷你手绘电车（车头保留船尖、车窗像毛毛虫点）→沿地板黑色缝线行驶→冲到路线图下车头一抬变扁平蜗牛（壳像车轮、身体拉长成车票线）→爬上金属立柱、回头抖触角催拍摄者追。- 反向：不要立体 CG。10〜13 秒- 正向：蜗牛触角碰车门按钮→按钮周围亮起杏橙手绘光圈→拍摄者想按→光圈弹开拉长蜗牛→变手绘小雨伞（伞面保留蜗牛壳螺旋和迷你电车窗点）→贴车门玻璃下滑、伞尖敲门缝（门缝街灯变成摇晃发光线）→伞翻面变带铃铛尾巴手绘鱼（鱼身如伞面、尾如车票虚线）→游到下方用尾巴扫拍摄者手腕（留下杏橙手环痕迹）→拍摄者后退撞座椅、镜头一歪再追车厢中央。- 反向：不要恐怖怪物化、不要扑咬。13〜15 秒- 正向：手绘鱼从车门玻璃散开→所有线迹沿窗玻璃、地板木纹、座椅缝、扶手环、路线图、天花板灯罩蔓延→整节车厢变巨大夕阳云海（窗铺晚霞、地板变发光小河、扶手环变圆月、路线图扩散成涂鸦小镇、天花板垂云带）→拍摄者后退伸手→空中云带落掌心变回车票→轻轻颤抖打喷嚏→满车厢晚霞线散成小纸屑→一片贴镜头边缘、另一只慢半拍小纸燕子从座椅缝钻出飞错方向笨拙掉到拍摄者手心→画面在温柔余韵中结束。- 反向：不要切镜到别的场景、不要凭空的恐怖元素。
+【整体要求补充】
+▍手绘动画风格（贯穿全片）- 始终是平面逐帧手绘发光涂鸦，不是立体角色或 CG 生物- 线条粗细、轮廓、填色每帧轻微变化，边缘有蜡笔/粉笔/彩色铅笔/粗糙笔刷/粉彩毛边- 涂色不均，有擦痕、颗粒、手工重画感- 中心色：杏橙、暖橘、淡奶白、少量柔和金- 发光柔和，只在玻璃/金属扶手/旧布座椅/木纹地板边缘留弱光晕，不强烈照亮实拍空间- 每次变形保留前一形态痕迹（雾痕弧线、车票虚线边、纸燕子翅膀、毛毛虫圆点、小帆船船头、迷你电车车窗、蜗牛壳螺旋、雨伞伞面、小鱼尾巴）—— 让观众感到是同一存在连续变形，不是新角色
+▍相机节奏（贯穿全片）- 始终比手绘动画慢半拍- 动画先逃向扶手环/座椅缝/地板木纹/路线图/车门玻璃/车厢中央，相机再迟疑平移/低头/抬头/前进/后退追- 不提前构图，不让动画稳定居中，不平稳展示电车内饰- 保留：手持手机抖动、电车行驶摇晃、走路追赶的上下起伏、靠近玻璃的短暂失焦、窗外街灯曝光跳动、自然运动模糊- 像拍摄者真的在同一节车厢里一路追着它移动
+▍禁止项（贯穿全片）- 禁止精密 3DCG、毛绒玩具风、三维渲染、平滑霓虹管、均匀矢量线、完成度过高的动态图形- 禁止电影感过强的布光、广告摄影式整洁构图、过度景深虚化- 禁止字幕、标志、背景音乐- 禁止突然切到别的场景- 禁止前形态消失后新角色凭空出现- 禁止巨大眼睛、裂嘴、牙齿、威吓、扑咬、突然黑屏、跳吓、恐怖怪物化- 最后的空间变形必须仍由手绘发光线条构成，可以奇妙梦幻不可思议，但保持温柔、怀旧、可爱、生活化、温柔而略带哀愁。
+▍环境音（贯穿全片）- 只使用老式电车车厢内的真实声音：车轮与轨道的低沉摩擦声、车厢轻微摇晃声、扶手环碰撞声、车门按钮细小机械声、纸质车票摩擦声、布面座椅被碰到的声音、拍摄者小声惊呼和急促脚步声- 手绘动画声音：极轻的粉笔摩擦声、玻璃上滑动的细小刮擦声、柔软电子颤音、短促滑稽的鸣叫声
+```
+
+<a id="faq"></a>
+
+## ❓ 常見問題
+
+### 这些提示词能直接用吗?
+
+可以。每条都是官方案例的原始提示词,复制后按需替换主体、场景和文字即可;参考素材链接就在旁边。
+
+### 需要上传参考素材吗?
+
+看路线:纯文生视频不需要;带 `@图片N` / `@视频N` / `@音频N` 的条目需要按提示词里写明的用途上传对应素材。
+
+### 在哪里运行?
+
+Atlas Cloud 的 MiniMax H3 三个端点:text-to-video、image-to-video、reference-to-video。
+
+### 提示词怎么自己写?
+
+按官方公式:参考素材说明 + 核心创意 + 画面过程说明,详见仓库内的提示词指南。
+
+<details><summary>倉庫開發</summary>
+
+```bash
+npm ci
+npm run generate
+npx tsc --noEmit
+```
+
+</details>
+
+<a id="resources"></a>
+
+## 🔗 相關資源
+
+
+- [Atlas Cloud 官方網站](https://www.atlascloud.ai/?utm_source=github&utm_campaign=awesome-minimax-h3-prompts)
+- [MiniMax H3 prompt gallery](https://www.atlascloud.ai/prompts-hub/minimax-h3-prompt?utm_source=github&utm_campaign=awesome-minimax-h3-prompts&locale=zh-TW)
+- [Atlas Cloud MiniMax H3 page](https://www.atlascloud.ai/zh-TW/models/minimax/h3/text-to-video?utm_source=github&utm_campaign=awesome-minimax-h3-prompts)
+- [Atlas MCP Server](https://github.com/AtlasCloudAI/mcp-server)
+- [Atlas CLI](https://github.com/AtlasCloudAI/cli)
+- [Atlas Cloud model catalog](https://www.atlascloud.ai/models?utm_source=github&utm_campaign=awesome-minimax-h3-prompts)
+- [Discord](https://discord.gg/MWmMr4q9es)
+
+<a id="license"></a>
+
+## 📄 授權條款
+
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+> 所有提示詞僅用於學習、整理與檢索。如有內容需要移除，請提交 issue。
+
+> 此 README 為自動生成。 2026-08-06.
